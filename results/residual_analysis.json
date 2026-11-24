@@ -1,0 +1,365 @@
+{
+ "distribution": {
+  "gold option, corroborated": 41,
+  "gold option, name only": 25,
+  "gold NONE": 11
+ },
+ "pair/L3a": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 11,
+   "wrong": 18,
+   "unsure": 12
+  },
+  "gold option, name only": {
+   "n": 25,
+   "unsure": 12,
+   "correct": 10,
+   "wrong": 3
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 5,
+   "unsure": 6
+  }
+ },
+ "pair/L3b": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 38,
+   "wrong": 3
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 20,
+   "wrong": 5
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 10,
+   "correct": 1
+  }
+ },
+ "fiche_cluster/L3a": {
+  "gold option, corroborated": {
+   "n": 41,
+   "wrong": 28,
+   "correct": 11,
+   "unsure": 2
+  },
+  "gold option, name only": {
+   "n": 25,
+   "unsure": 2,
+   "wrong": 5,
+   "correct": 18
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 11
+  }
+ },
+ "fiche_cluster/L3b": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 32,
+   "wrong": 9
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 18,
+   "wrong": 7
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 11
+  }
+ },
+ "cluster_cluster/L3a": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 19,
+   "unsure": 5,
+   "wrong": 17
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 16,
+   "unsure": 4,
+   "wrong": 5
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 11
+  }
+ },
+ "cluster_cluster/L3b": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 38,
+   "wrong": 2,
+   "unsure": 1
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 19,
+   "wrong": 6
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 11
+  }
+ },
+ "pair/L4": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 4,
+   "unsure": 3
+  },
+  "gold option, name only": {
+   "n": 25,
+   "unsure": 25
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 1,
+   "unsure": 7,
+   "correct": 3
+  }
+ },
+ "fiche_cluster/L4": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 33,
+   "unsure": 6,
+   "wrong": 2
+  },
+  "gold option, name only": {
+   "n": 25,
+   "unsure": 23,
+   "wrong": 1,
+   "correct": 1
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 1,
+   "unsure": 8,
+   "correct": 2
+  }
+ },
+ "cluster_cluster/L4": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 4,
+   "unsure": 3
+  },
+  "gold option, name only": {
+   "n": 25,
+   "unsure": 24,
+   "wrong": 1
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 1,
+   "unsure": 8,
+   "correct": 2
+  }
+ },
+ "context_exp_gemma_api:pair/GEMMA31_API": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 4,
+   "unsure": 3
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 6,
+   "unsure": 17,
+   "wrong": 2
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "unsure": 5,
+   "correct": 4
+  }
+ },
+ "context_exp_gemma_api:pair/GEMMA26_API": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 32,
+   "wrong": 3,
+   "unsure": 6
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 8,
+   "unsure": 16,
+   "wrong": 1
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 1,
+   "unsure": 9,
+   "correct": 1
+  }
+ },
+ "context_exp_gemma_api:fiche_cluster/GEMMA31_API": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 3,
+   "unsure": 4
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 4,
+   "unsure": 17,
+   "wrong": 4
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "unsure": 5,
+   "correct": 4
+  }
+ },
+ "context_exp_gemma_api:fiche_cluster/GEMMA26_API": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 31,
+   "wrong": 6,
+   "unsure": 4
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 13,
+   "unsure": 12
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 4,
+   "correct": 2,
+   "unsure": 5
+  }
+ },
+ "context_exp_gemma_api:cluster_cluster/GEMMA31_API": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 2,
+   "unsure": 5
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 3,
+   "unsure": 20,
+   "wrong": 2
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "correct": 5,
+   "unsure": 4
+  }
+ },
+ "context_exp_gemma_api:cluster_cluster/GEMMA26_API": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 35,
+   "wrong": 4,
+   "unsure": 2
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 5,
+   "unsure": 20
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "correct": 2,
+   "unsure": 7
+  }
+ },
+ "context_exp_gemma_local:pair/GEMMA31_LOCAL": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 7
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 7,
+   "wrong": 7,
+   "unsure": 11
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "correct": 4,
+   "unsure": 5
+  }
+ },
+ "context_exp_gemma_local:fiche_cluster/GEMMA31_LOCAL": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 35,
+   "wrong": 6
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 7,
+   "wrong": 9,
+   "unsure": 9
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "correct": 5,
+   "unsure": 4
+  }
+ },
+ "context_exp_gemma_local:cluster_cluster/GEMMA31_LOCAL": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 34,
+   "wrong": 6,
+   "unsure": 1
+  },
+  "gold option, name only": {
+   "n": 25,
+   "unsure": 11,
+   "correct": 5,
+   "wrong": 9
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 2,
+   "correct": 6,
+   "unsure": 3
+  }
+ },
+ "context_exp_gemma_local_think:pair/GEMMA31_LOCAL_THINK": {
+  "gold option, corroborated": {
+   "n": 41,
+   "correct": 33,
+   "wrong": 3,
+   "unsure": 5
+  },
+  "gold option, name only": {
+   "n": 25,
+   "correct": 5,
+   "unsure": 14,
+   "wrong": 6
+  },
+  "gold NONE": {
+   "n": 11,
+   "wrong": 1,
+   "unsure": 6,
+   "correct": 4
+  }
+ }
+}

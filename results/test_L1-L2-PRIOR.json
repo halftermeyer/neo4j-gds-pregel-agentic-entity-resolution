@@ -1,0 +1,3342 @@
+{
+ "ds": "test",
+ "levels": [
+  "L1",
+  "L2",
+  "PRIOR"
+ ],
+ "ctx": "fiche_cluster",
+ "rounds": [
+  {
+   "round": 1,
+   "project_s": 0.528,
+   "pregel_s": 0.054,
+   "iterations": 2,
+   "converged": true,
+   "merges": 155,
+   "nodes": 646,
+   "rels": 2880,
+   "decisive": 1185,
+   "refused": 0,
+   "moot": 63,
+   "questions": 139
+  },
+  {
+   "round": 2,
+   "project_s": 0.122,
+   "pregel_s": 0.04,
+   "iterations": 2,
+   "converged": true,
+   "merges": 268,
+   "nodes": 646,
+   "rels": 2598,
+   "decisive": 616,
+   "refused": 0,
+   "moot": 337,
+   "questions": 84
+  },
+  {
+   "round": 3,
+   "project_s": 0.17,
+   "pregel_s": 0.036,
+   "iterations": 2,
+   "converged": true,
+   "merges": 327,
+   "nodes": 646,
+   "rels": 2396,
+   "decisive": 227,
+   "refused": 0,
+   "moot": 530,
+   "questions": 30
+  },
+  {
+   "round": 4,
+   "project_s": 0.095,
+   "pregel_s": 0.032,
+   "iterations": 2,
+   "converged": true,
+   "merges": 343,
+   "nodes": 646,
+   "rels": 2280,
+   "decisive": 71,
+   "refused": 0,
+   "moot": 595,
+   "questions": 15
+  },
+  {
+   "round": 5,
+   "project_s": 0.067,
+   "pregel_s": 0.03,
+   "iterations": 2,
+   "converged": true,
+   "merges": 350,
+   "nodes": 646,
+   "rels": 2244,
+   "decisive": 23,
+   "refused": 0,
+   "moot": 607,
+   "questions": 4
+  },
+  {
+   "round": 6,
+   "project_s": 0.084,
+   "pregel_s": 0.042,
+   "iterations": 2,
+   "converged": true,
+   "merges": 351,
+   "nodes": 646,
+   "rels": 2234,
+   "decisive": 16,
+   "refused": 0,
+   "moot": 608,
+   "questions": 1
+  },
+  {
+   "round": 7,
+   "project_s": 0.084,
+   "pregel_s": 0.033,
+   "iterations": 2,
+   "converged": true,
+   "merges": 351,
+   "nodes": 646,
+   "rels": 2230,
+   "decisive": 14,
+   "refused": 0,
+   "moot": 608,
+   "questions": 1
+  },
+  {
+   "round": 8,
+   "project_s": 0.084,
+   "pregel_s": 0.03,
+   "iterations": 2,
+   "converged": true,
+   "merges": 352,
+   "nodes": 646,
+   "rels": 2230,
+   "decisive": 0,
+   "refused": 0,
+   "moot": 620,
+   "questions": 0
+  }
+ ],
+ "elapsed_s": 51.2,
+ "calls": {
+  "L1": 274,
+  "L2": 139,
+  "PRIOR": 136
+ },
+ "latency_ms": {
+  "L1": {
+   "median": 97.7,
+   "p95": 173.5,
+   "total_s": 29.3
+  },
+  "L2": {
+   "median": 129.1,
+   "p95": 189.7,
+   "total_s": 16.9
+  },
+  "PRIOR": {
+   "median": 0.0,
+   "p95": 0.0,
+   "total_s": 0.0
+  }
+ },
+ "unsure_after_level": {
+  "L1": 139,
+  "L2": 136
+ },
+ "reopened": 0,
+ "final_refused_match_edges": 0,
+ "final_decisive_unresolved": 0,
+ "metrics": {
+  "pair_precision": 0.848,
+  "pair_recall": 0.899,
+  "pair_f1": 0.8728,
+  "exact_entities": 230,
+  "true_entities": 300,
+  "exact_rate": 0.7667,
+  "pred_clusters": 294,
+  "clusters_with_strong_id_conflict": 0
+ },
+ "answers_correct_by_level": {
+  "L1": "127/135",
+  "PRIOR": "100/136",
+  "L2": "2/3"
+ },
+ "answers_by_kind": {
+  "L1:OPTION": 59,
+  "PRIOR:OPTION": 136,
+  "L1:NONE": 76,
+  "L2:OPTION": 2,
+  "L2:NONE": 1
+ },
+ "wcc_on_final_match_edges": {
+  "pair_precision": 0.848,
+  "pair_recall": 0.899,
+  "pair_f1": 0.8728,
+  "exact_entities": 230,
+  "true_entities": 300,
+  "exact_rate": 0.7667,
+  "pred_clusters": 294,
+  "clusters_with_strong_id_conflict": 0
+ },
+ "log": [
+  {
+   "round": 1,
+   "x": 1965,
+   "options": [
+    2005
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1966,
+   "options": [
+    2475,
+    1978
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1968,
+   "options": [
+    2022,
+    1998
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1969,
+   "options": [
+    2344,
+    2088
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1972,
+   "options": [
+    2571,
+    2033
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1974,
+   "options": [
+    2067
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1975,
+   "options": [
+    2420,
+    2169
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1979,
+   "options": [
+    2320
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1983,
+   "options": [
+    1997,
+    2083
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1986,
+   "options": [
+    2051,
+    2286
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 1988,
+   "options": [
+    2156
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1991,
+   "options": [
+    2500,
+    2336
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1992,
+   "options": [
+    2374
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1996,
+   "options": [
+    2396,
+    2565
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 1999,
+   "options": [
+    2345,
+    2354
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2004,
+   "options": [
+    2562,
+    2371
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2008,
+   "options": [
+    2506,
+    2394
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2009,
+   "options": [
+    2225,
+    2527
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2010,
+   "options": [
+    2483,
+    2499
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2011,
+   "options": [
+    2399,
+    2287
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2012,
+   "options": [
+    2224,
+    2312
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2016,
+   "options": [
+    2593,
+    2150
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2018,
+   "options": [
+    2074,
+    2274
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2019,
+   "options": [
+    2476,
+    2222
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2020,
+   "options": [
+    2195
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "A",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2027,
+   "options": [
+    2554,
+    2242
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2028,
+   "options": [
+    2091
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2029,
+   "options": [
+    1989,
+    2304
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2030,
+   "options": [
+    2321,
+    2444
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2031,
+   "options": [
+    2466,
+    2290
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2034,
+   "options": [
+    2375,
+    2600
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2036,
+   "options": [
+    2238,
+    2490
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2037,
+   "options": [
+    2504
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2038,
+   "options": [
+    2360,
+    2024
+   ],
+   "answer": "A",
+   "level": "L2",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2039,
+   "options": [
+    2240,
+    2095
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2042,
+   "options": [
+    2407
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2043,
+   "options": [
+    2230,
+    2187
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2044,
+   "options": [
+    2193,
+    2049
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2046,
+   "options": [
+    2085
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2050,
+   "options": [
+    2452,
+    2405
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2052,
+   "options": [
+    2551,
+    2350
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2053,
+   "options": [
+    2391,
+    2478
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2056,
+   "options": [
+    2126,
+    2510
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2058,
+   "options": [
+    2343,
+    2556
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2059,
+   "options": [
+    2373
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2060,
+   "options": [
+    2208,
+    2099
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2063,
+   "options": [
+    2137
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2070,
+   "options": [
+    2437,
+    2087
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2073,
+   "options": [
+    2577,
+    1995
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2075,
+   "options": [
+    2588,
+    2352
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2076,
+   "options": [
+    2307,
+    2278
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2079,
+   "options": [
+    2487,
+    2443
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2080,
+   "options": [
+    2470
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2084,
+   "options": [
+    2491,
+    2560
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2090,
+   "options": [
+    2309,
+    2479
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2092,
+   "options": [
+    2583,
+    2118
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2093,
+   "options": [
+    2160,
+    2392
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2094,
+   "options": [
+    2247,
+    2531
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2096,
+   "options": [
+    2434,
+    1963
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2097,
+   "options": [
+    1985,
+    2249
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2100,
+   "options": [
+    2219,
+    2492
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2101,
+   "options": [
+    2462
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2102,
+   "options": [
+    2252,
+    2358
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2104,
+   "options": [
+    2598
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2105,
+   "options": [
+    2572,
+    2536
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2106,
+   "options": [
+    2584,
+    2410
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2111,
+   "options": [
+    2473,
+    2157
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2114,
+   "options": [
+    2164
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2117,
+   "options": [
+    2285,
+    2192
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2122,
+   "options": [
+    2540,
+    2262
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2125,
+   "options": [
+    2206
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2127,
+   "options": [
+    2517
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2131,
+   "options": [
+    2438,
+    2578
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2132,
+   "options": [
+    2347
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2134,
+   "options": [
+    2518,
+    2602
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2138,
+   "options": [
+    2155,
+    2159
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2140,
+   "options": [
+    2183,
+    2424
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2142,
+   "options": [
+    2328
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "A",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2144,
+   "options": [
+    2273,
+    2313
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2146,
+   "options": [
+    2175
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2158,
+   "options": [
+    2072,
+    2439
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2163,
+   "options": [
+    2234
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2168,
+   "options": [
+    2119
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2170,
+   "options": [
+    2191,
+    2532
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2172,
+   "options": [
+    2272
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2173,
+   "options": [
+    1964,
+    2201
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2174,
+   "options": [
+    2387,
+    2017
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2178,
+   "options": [
+    2244
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2185,
+   "options": [
+    2200,
+    2545
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2186,
+   "options": [
+    2279
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2188,
+   "options": [
+    2246
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2194,
+   "options": [
+    1981
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2204,
+   "options": [
+    2251
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2205,
+   "options": [
+    2415,
+    2267
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2207,
+   "options": [
+    2265,
+    2455
+   ],
+   "answer": "A",
+   "level": "L2",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2209,
+   "options": [
+    2128
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2211,
+   "options": [
+    2356
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2212,
+   "options": [
+    2468
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2213,
+   "options": [
+    1971
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2218,
+   "options": [
+    2361
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2229,
+   "options": [
+    2524,
+    2461
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2231,
+   "options": [
+    2541
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2232,
+   "options": [
+    2294,
+    2143
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2241,
+   "options": [
+    2197,
+    2220
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2243,
+   "options": [
+    2310
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2253,
+   "options": [
+    2471,
+    2133
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2255,
+   "options": [
+    2176,
+    1973
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2269,
+   "options": [
+    2421
+   ],
+   "answer": "NONE",
+   "level": "L2",
+   "truth": "A",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2270,
+   "options": [
+    2408,
+    2579
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2277,
+   "options": [
+    2190,
+    1993
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2289,
+   "options": [
+    2596,
+    2330
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2291,
+   "options": [
+    2557
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2298,
+   "options": [
+    2068
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2299,
+   "options": [
+    2489
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2301,
+   "options": [
+    2341,
+    2335
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2316,
+   "options": [
+    2514
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2342,
+   "options": [
+    2567
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2346,
+   "options": [
+    2559
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2348,
+   "options": [
+    2369,
+    2404
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2349,
+   "options": [
+    2385
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2353,
+   "options": [
+    2398,
+    2403
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 1,
+   "x": 2364,
+   "options": [
+    2379
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2378,
+   "options": [
+    2120,
+    2406
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2386,
+   "options": [
+    2054,
+    2528
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2409,
+   "options": [
+    2062,
+    2485
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2419,
+   "options": [
+    2025,
+    2568
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2422,
+   "options": [
+    2129
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2449,
+   "options": [
+    2515,
+    2458
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2454,
+   "options": [
+    2216
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2464,
+   "options": [
+    2181,
+    2257
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2465,
+   "options": [
+    2603
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2469,
+   "options": [
+    2041,
+    2575
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2507,
+   "options": [
+    2368
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2511,
+   "options": [
+    2066,
+    2165
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2512,
+   "options": [
+    2040
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2543,
+   "options": [
+    2167,
+    2324
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2558,
+   "options": [
+    2597
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2591,
+   "options": [
+    2413
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 1,
+   "x": 2418,
+   "options": [
+    2599
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 1978,
+   "options": [
+    1966
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 1991,
+   "options": [
+    2068,
+    2218
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 1998,
+   "options": [
+    1968
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2033,
+   "options": [
+    2042,
+    2084
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2036,
+   "options": [
+    2565
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2049,
+   "options": [
+    2435,
+    2186
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2053,
+   "options": [
+    2134,
+    2602
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2059,
+   "options": [
+    2222
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2070,
+   "options": [
+    2549
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2080,
+   "options": [
+    1983,
+    2083
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2087,
+   "options": [
+    2226,
+    2001
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2088,
+   "options": [
+    2486,
+    2291
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2095,
+   "options": [
+    2064,
+    2129
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2097,
+   "options": [
+    2504
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2099,
+   "options": [
+    2192
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2111,
+   "options": [
+    2009
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2114,
+   "options": [
+    2560
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2116,
+   "options": [
+    2320
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2118,
+   "options": [
+    1999,
+    2146
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2125,
+   "options": [
+    1996
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2131,
+   "options": [
+    2096,
+    1963
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2132,
+   "options": [
+    2437
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2150,
+   "options": [
+    2480
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2153,
+   "options": [
+    1995
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "A",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2157,
+   "options": [
+    2566,
+    2473
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2164,
+   "options": [
+    2493,
+    2185
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2169,
+   "options": [
+    2031,
+    1973
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2187,
+   "options": [
+    2010,
+    2499
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2195,
+   "options": [
+    2288
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2210,
+   "options": [
+    2117
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2235,
+   "options": [
+    2170
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2238,
+   "options": [
+    2490,
+    2162
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2242,
+   "options": [
+    2027
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2245,
+   "options": [
+    2394
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2262,
+   "options": [
+    2122
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2267,
+   "options": [
+    2205
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2272,
+   "options": [
+    2266
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2279,
+   "options": [
+    2090,
+    2188
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2287,
+   "options": [
+    2322,
+    2608
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2290,
+   "options": [
+    1975,
+    2456
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2300,
+   "options": [
+    2405
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2306,
+   "options": [
+    2518
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2326,
+   "options": [
+    2270
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2327,
+   "options": [
+    2461
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2330,
+   "options": [
+    2410,
+    2413
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2335,
+   "options": [
+    2301,
+    2531
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2336,
+   "options": [
+    2500,
+    2313
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2346,
+   "options": [
+    2532
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2347,
+   "options": [
+    2349,
+    2119
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2352,
+   "options": [
+    1976,
+    2467
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2354,
+   "options": [
+    2092,
+    2040
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2358,
+   "options": [
+    2102,
+    2182
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2370,
+   "options": [
+    2016
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2371,
+   "options": [
+    2178,
+    2149
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2373,
+   "options": [
+    2477,
+    2003
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2376,
+   "options": [
+    2478,
+    2391
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2378,
+   "options": [
+    1993
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2392,
+   "options": [
+    2443,
+    2093
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2403,
+   "options": [
+    2442,
+    2353
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2404,
+   "options": [
+    2348
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2406,
+   "options": [
+    2120
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2409,
+   "options": [
+    2496
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2411,
+   "options": [
+    2556
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2424,
+   "options": [
+    2014,
+    2544
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2427,
+   "options": [
+    2159
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2431,
+   "options": [
+    2128
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2444,
+   "options": [
+    2030,
+    2503
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2445,
+   "options": [
+    2559
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2454,
+   "options": [
+    2479
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2455,
+   "options": [
+    2174,
+    2017
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2472,
+   "options": [
+    2073
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2485,
+   "options": [
+    2062,
+    1989
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2492,
+   "options": [
+    2100
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2513,
+   "options": [
+    2545
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2522,
+   "options": [
+    2578
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2533,
+   "options": [
+    1981
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2536,
+   "options": [
+    2105,
+    1967
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2575,
+   "options": [
+    2357,
+    2228
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2592,
+   "options": [
+    2043
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2600,
+   "options": [
+    2034,
+    2223
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2012,
+   "options": [
+    2056
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2041,
+   "options": [
+    2171,
+    2184
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 2,
+   "x": 2216,
+   "options": [
+    2108
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 2,
+   "x": 2289,
+   "options": [
+    2197
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 1991,
+   "options": [
+    2568,
+    2025
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2053,
+   "options": [
+    2103,
+    2306
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2095,
+   "options": [
+    2039,
+    2097
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2186,
+   "options": [
+    2044
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2222,
+   "options": [
+    2011,
+    2237
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "B",
+   "correct": false
+  },
+  {
+   "round": 3,
+   "x": 2249,
+   "options": [
+    2504
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2279,
+   "options": [
+    2049,
+    2076
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2304,
+   "options": [
+    2096
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2312,
+   "options": [
+    2394
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2373,
+   "options": [
+    2040,
+    2418
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2383,
+   "options": [
+    2437
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2409,
+   "options": [
+    2162,
+    2238
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2431,
+   "options": [
+    2270
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2472,
+   "options": [
+    1995
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2473,
+   "options": [
+    2566,
+    2527
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2485,
+   "options": [
+    2496
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2499,
+   "options": [
+    2482
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2502,
+   "options": [
+    2033
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2503,
+   "options": [
+    2030,
+    2220
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2519,
+   "options": [
+    2062
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2521,
+   "options": [
+    2532
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2531,
+   "options": [
+    2342,
+    2094
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2535,
+   "options": [
+    1993
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2549,
+   "options": [
+    2392,
+    2093
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2556,
+   "options": [
+    2058,
+    1984
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2592,
+   "options": [
+    2301
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "A",
+   "correct": false
+  },
+  {
+   "round": 3,
+   "x": 2602,
+   "options": [
+    2218
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2090,
+   "options": [
+    2454,
+    2108
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 3,
+   "x": 2106,
+   "options": [
+    2330
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 3,
+   "x": 2146,
+   "options": [
+    1999,
+    2092
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 1991,
+   "options": [
+    2419
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2053,
+   "options": [
+    2568
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2095,
+   "options": [
+    2249
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2279,
+   "options": [
+    2278,
+    2044
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2409,
+   "options": [
+    2088
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2437,
+   "options": [
+    2001,
+    2087
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2503,
+   "options": [
+    2176
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2519,
+   "options": [
+    2238
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2532,
+   "options": [
+    2170,
+    2445
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2579,
+   "options": [
+    2270
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2602,
+   "options": [
+    2306
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2052,
+   "options": [
+    1995
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2079,
+   "options": [
+    2392
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 4,
+   "x": 2289,
+   "options": [
+    2106
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 4,
+   "x": 2010,
+   "options": [
+    2011
+   ],
+   "answer": "A",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": false
+  },
+  {
+   "round": 5,
+   "x": 2279,
+   "options": [
+    2090
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 5,
+   "x": 2391,
+   "options": [
+    2568
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "A",
+   "correct": true
+  },
+  {
+   "round": 5,
+   "x": 2036,
+   "options": [
+    2238
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 5,
+   "x": 2073,
+   "options": [
+    1995
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 6,
+   "x": 2062,
+   "options": [
+    2238
+   ],
+   "answer": "NONE",
+   "level": "L1",
+   "truth": "NONE",
+   "correct": true
+  },
+  {
+   "round": 7,
+   "x": 2162,
+   "options": [
+    2238
+   ],
+   "answer": "A",
+   "level": "PRIOR",
+   "truth": "NONE",
+   "correct": false
+  }
+ ]
+}

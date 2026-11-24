@@ -1,0 +1,7 @@
+__pycache__/
+models.pkl
+pregel/build/
+*.jar
+results/*.txt
+results/*.log
+.env

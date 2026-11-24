@@ -1,0 +1,2854 @@
+{
+ "pair/L3a": {
+  "n": 77,
+  "correct": 21,
+  "unsure": 30,
+  "wrong": 26,
+  "wrong_merge": 22,
+  "wrong_none": 4,
+  "accuracy_on_decided": 0.447,
+  "coverage": 0.61,
+  "median_ms": 622,
+  "rows": [
+   {
+    "x": 1966,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject record has a consistent format with a first name (Louise), a last name (Girard), a date of birth (19450614), an address (77 r. Pasteur 78000 Versailles), and a phone number (0118338937). Option A matches this format, while Option B has an inconsistent format with a different date of birt"
+   },
+   {
+    "x": 1968,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine if the subject is Anne Rey or Anne-Sophie Roux, as the records do not provide a clear match, such as a shared date of birth or a consistent name format."
+   },
+   {
+    "x": 1969,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent data: different last name (Masson vs Charpentier), different email address (yahoo.fr vs gmail.com), and different phone number (0779340287 vs 0179486199). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 1975,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Different first name (Mich\u00e8le vs Mich\u00e8le), different address (46 rue du G\u00e9n\u00e9ral Leclerc vs 26 boulevard Voltaire), different email (michele.duval@yahoo.fr vs michele.duval@gmail.com), different phone number (0686983622 vs 0638444451)"
+   },
+   {
+    "x": 1983,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Different first names (Charlotte vs Charlie), different date of birth (1979 vs 1949), and different address format (full address vs just address number and street name). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 1986,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's email address and phone number match Option B's, and the birthdate is also present in Option B. Although the addresses are different, the birthdate and contact information are sufficient to confirm that the records describe the same person."
+   },
+   {
+    "x": 1996,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is consistent with Option A, and the address and email are also consistent. The only difference is the surname, but the subject's record has a French diminutive 'LEFEBVRE' which is a common way to write the surname in France, and Option A has 'LEFEBVRE' as well. The other op"
+   },
+   {
+    "x": 1999,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's address and phone number match Option B, and the birthdate is also consistent. The only difference is the first name, but Anne-Sophie is a common French diminutive form of Anne, and the age difference is not significant. Therefore, it is likely that Option B describes the same person a"
+   },
+   {
+    "x": 2004,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has the same first name, date of birth, and phone number as option B, but the address and last name are different. The subject's last name is Lefebvre, but option B's last name is not specified, only a nickname (M. Lefebvre). However, considering the context of the subject's record, it i"
+   },
+   {
+    "x": 2009,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a date of birth (19670903) that matches Option B, and the address (100, rue Nationale Versailles) is also present in Option B. The phone number and email address are different, but the first name and last name are the same. The only difference is the format of the date of birt"
+   },
+   {
+    "x": 2010,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject has the same last name (REY), address (rue de la Gare), and is likely the same person, despite the different date of birth and location (Strasbourg vs Toulouse). The difference in date of birth and location is likely due to the legacy system being outdated or incorrect."
+   },
+   {
+    "x": 2011,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject has the same first name, last name, address, and email address as option B, indicating they are likely the same person."
+   },
+   {
+    "x": 2012,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's full name is J.P. Booyer, but Option B has the full name Jean-Paul Boyer, which is a common French naming convention. The dates of birth and addresses also match, making it likely that these are the same person."
+   },
+   {
+    "x": 2016,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a different date of birth (19470404) than Option A (19890912), indicating a different person. Additionally, the address in Option A is in the legacy system and does not match the CRM address in Option B, which suggests a possible data discrepancy or update."
+   },
+   {
+    "x": 2018,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's name is consistent with Option B, and the birthdate, email, and phone number match. The only difference is the case of the first name 'Gabrielle' in Option A, but this is likely a typo or formatting difference rather than a distinct individual."
+   },
+   {
+    "x": 2019,
+    "answer": "UNSURE",
+    "truth": "NONE",
+    "reason": "Inconsistent data: different first name (Fr\u00e9d\u00e9riqeu vs Fr\u00e9d\u00e9ric), different city (Nice vs Nantes), and different phone number (no match), but same last name (Rey) and address (chemin des Vignes). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2027,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "Different first name (Thierry vs Thierry), different date of birth (22 vs 52), different address (RUE DU G\u00c9N\u00c9RAL LECLERC vs AVENUE VICTOR HUGO), different email (no match), different phone number (no match)"
+   },
+   {
+    "x": 2028,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "The subject's first name is JP, but option A has Jean-Philippe, which is a different first name. The subject's last name is GIRARD, but option A has Girard, which is a different last name. The subject's address and phone number do not match option A."
+   },
+   {
+    "x": 2029,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent data: different birthdate, different address, and different phone number, but same first name and last name."
+   },
+   {
+    "x": 2030,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's full name, date of birth, and address match Option A, making it the most likely correct record."
+   },
+   {
+    "x": 2031,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a title 'M. Duval' and a date of birth, which matches the title and date of birth in Option B. The address and email in Option B are also consistent with the subject record, but the first name 'Michele' in Option A is different from the subject record's first name 'M. Duval' ("
+   },
+   {
+    "x": 2034,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has a French diminutive nickname 'Bonnet' in the subject record, but 'Bonet' in option B, which is a common alternative in French. This suggests that the subject and option B describe the same person."
+   },
+   {
+    "x": 2044,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is consistent between the subject record and option B, and the address is also consistent. The only difference is the phone number, which is likely an error in the subject record. The phone number in option B is not present in the subject record, but it is possible that the "
+   },
+   {
+    "x": 2050,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a full name (Sylvie Chevalier), a date of birth, an address, a contact email and a phone number. Option B has the same full name, date of birth, address and contact information, making it the most likely match."
+   },
+   {
+    "x": 2052,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Christine, which matches the first name in Option A. The dates of birth and phone numbers also match, indicating that the subject is likely the same person as the record in Option A."
+   },
+   {
+    "x": 2056,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject's first name is 'Jean' and the first name in option B is 'Jeanne', which is a common French diminutive form. The last name 'Boier' is not present in option B, but 'Boyer' is, which is a common alternative spelling. The birthdate and address match, suggesting that option B describes the s"
+   },
+   {
+    "x": 2058,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is 'V.' which is equivalent to 'Val\u00e9rie' in Option B, and the addresses and phone number match."
+   },
+   {
+    "x": 2076,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "The records contain different first names (Laurence vs Fran\u00e7ois), different dates of birth (1991 vs 1968), and different addresses (Rue Pasteur vs Rue de la Gare), making it unclear whether they describe the same person."
+   },
+   {
+    "x": 2079,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent data: different first name (Patou vs P.) and different address (R de la Paix vs RUE NATIONALE), but same date of birth and phone number."
+   },
+   {
+    "x": 2084,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a French diminutive 'Vincent' (a common practice in French names), which is present in Option B. The other fields match exactly, indicating that Option B describes the same person as the subject record."
+   },
+   {
+    "x": 2090,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a consistent format with a capital 'U' in 'RUE DE LA PAIX', which is not present in Option A. This suggests that Option B is the more accurate representation of the subject's record."
+   },
+   {
+    "x": 2092,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is Anne-Sophie, but option B has AS Marchand, which is a nickname. The subject's address and contact information match option B, but the first name discrepancy is resolved by considering the nickname 'AS' as a shortened version of 'Anne-Sophie'."
+   },
+   {
+    "x": 2093,
+    "answer": "UNSURE",
+    "truth": "B",
+    "reason": "Insufficient evidence to determine if the subject is the same person as the options, as the first name is different (Pateicia vs Patricia) and the address and phone number do not match."
+   },
+   {
+    "x": 2094,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'Louise', which matches the first name in Option A, and the last name is 'Dubois', which also matches. The phone number and email address are the same, indicating a high degree of consistency between the two records."
+   },
+   {
+    "x": 2096,
+    "answer": "UNSURE",
+    "truth": "NONE",
+    "reason": "Inconsistent data: first name 'Nicolas' vs 'Nicolas Laurennt', address '93 boulevard Saint-Michel' vs '7 r. Pasteur', and no matching email or phone number."
+   },
+   {
+    "x": 2100,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Option A has a different address, and Option B has a different date of birth, but the phone number and first name match. Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2101,
+    "answer": "UNSURE",
+    "truth": "NONE",
+    "reason": "Inconsistent data: different first name (Christine vs Christine), different last name (Duavl vs Duval), different address (RUE DE LA PAIX vs rue Nationale), and different phone number (no match). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2102,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject's first name is 'Jos\u00e9phine' in the subject record, but 'Josephine' in Option B. The French diminutive 'Chevalier' is also present in the subject record, but not in Option B. The addresses and other details match, suggesting that the subject record is more complete and accurate."
+   },
+   {
+    "x": 2104,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent information: first name 'Paul' vs 'Paul Denis', and no matching date of birth or phone number."
+   },
+   {
+    "x": 2105,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name, last name, address, and phone number match Option A, indicating it is likely the same person."
+   },
+   {
+    "x": 2106,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is consistent with Option A, and the address and phone number match. The only difference is the date of birth, but this is not sufficient to conclude that the records describe different people."
+   },
+   {
+    "x": 2117,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject's email address matches the format of Option B, and the other fields (name, address, and date of birth) are identical or have the same variations (e.g., 'R DU MOULIN' vs 'RUE DU MOULIN')."
+   },
+   {
+    "x": 2122,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record has a first name with an accent (S. Gauthier) and a different first name without an accent (Stephanie Gauthier) in Option A. The address and phone number match, but the email address and the 'KYC' and 'LEGACY' tags suggest a different record. Option B has the correct accent and th"
+   },
+   {
+    "x": 2138,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent data: different first name (Christophe vs Christophe REY), different date of birth (19600804 vs 19410313), and different address (76 rue de la Paix 92100 Boulogne-Billancourt vs 48, place de la R\u00e9publique 67000 Strasbourg). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2140,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has the same first name, age, and address (with a different postal code) as option B, but the birthdate and phone number are different. The French diminutive suffix (-ard) is also present in the subject's name, which is not present in option B. Therefore, option B is the most likely matc"
+   },
+   {
+    "x": 2144,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is 'Jeanne' in the legacy record, but 'Jean' in the CRM record. The French diminutive 'ne' is often used in names, so 'Jeanne' could be a nickname for 'Jeanne'. The other fields match, suggesting that the subject is the same person."
+   },
+   {
+    "x": 2146,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'A.-S.' which matches the first name 'Ane-Sophie' in option A, and the last name 'Marchand' matches. The email address and phone number also match."
+   },
+   {
+    "x": 2158,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Julie, which matches the first name in Option A. The addresses and phone number also match, and the birthdate is consistent with the subject's age (95)."
+   },
+   {
+    "x": 2170,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name, address, and contact information as the subject record, but with a different last name and email address. This suggests that the two records may describe the same person, but the difference in last name and email address may indicate a different entity or a variant "
+   },
+   {
+    "x": 2173,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is Louise Chevaliez, but option A has the same name (Lousie CHEVALIER) with the same date of birth (20021106) and the same phone number (0626633186), which suggests a possible match."
+   },
+   {
+    "x": 2174,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent date of birth (19981202 vs 19960821) and different address (boulevard Saint-Michel vs rue Nationale), insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2178,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "The subject record has a first name 'Marie' and a last name 'Lefebvre', while Option A has a first name 'Marie' but a different last name 'Lefvres'. The difference in last name, combined with the different address, makes it unclear whether they are the same person."
+   },
+   {
+    "x": 2185,
+    "answer": "UNSURE",
+    "truth": "NONE",
+    "reason": "Different date of birth and address suggest different individuals, but the first name and surname are the same. Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2204,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Frederic, but Option A has Fr\u00e9d\u00e9ric, which is a common French variant of the name. The addresses and phone number match, so it is likely that these are the same person."
+   },
+   {
+    "x": 2205,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's full name is not present in Option B, but the address, date of birth, and contact information match."
+   },
+   {
+    "x": 2211,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Julien, which matches the first name in Option A. The subject's last name is Rey, which also matches. The addresses and dates of birth are different, but the subject's first name and last name match, indicating that Option A is likely the same person as the subject."
+   },
+   {
+    "x": 2213,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "The subject record has a French diminutive 'Th\u00e9r\u00e8se' and a specific address, while Option A has a different first name 'Marie-Therese' and a different address format. The evidence is insufficient to determine if they are the same person."
+   },
+   {
+    "x": 2231,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first name 'Philippe' matches the first name in the subject record, and the last name 'Denis' matches the last name in the subject record. The address and CRM information also match."
+   },
+   {
+    "x": 2232,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent data: different first name (Olivire vs Olivier), different date of birth (19940926 vs 19721008), and different address (86, rue Gambetta vs 47, rue Nationale). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2241,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine if the subject is the same person as the options A and B, as the addresses and email are different, and the birthdate is not consistent with the first name."
+   },
+   {
+    "x": 2253,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "Different first name (Elisabeth vs \u00c9lisabeth), different date of birth, different address"
+   },
+   {
+    "x": 2270,
+    "answer": "UNSURE",
+    "truth": "B",
+    "reason": "Inconsistent data: different first name (Gabriel vs Deins/Gabrinl), different address (81 avenue Victor Hugo vs 33 AVE JEAN JAUR\u00c8S vs 39 R du Moulin), and different date of birth (no match). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2277,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine if the subject is the same person as the options provided, as the addresses and phone numbers are different, and the birth dates are not consistent with the subject's age (94 years old in the subject record vs. 1987 birth date in option A and 1999 birth date in opt"
+   },
+   {
+    "x": 2289,
+    "answer": "UNSURE",
+    "truth": "NONE",
+    "reason": "Inconsistent data: different first name (H\u00e9l\u00e8ne vs Helene), different city (Paris vs Nantes), and different phone number (no match). Insufficient evidence to determine if they are the same person."
+   },
+   {
+    "x": 2298,
+    "answer": "UNSURE",
+    "truth": "NONE",
+    "reason": "The subject's first name is Jeanne, but option A has Jean-Pierre, and the first names do not match. The subject's last name is DAIVD, but option A has DAVID. The addresses and email match, but the first name and last name do not, making it UNSURE whether they are the same person."
+   },
+   {
+    "x": 2299,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'J.' which matches the first name 'J.' in Option A, and the last name 'Rneaud' is very similar to 'RENAUD' in Option A, suggesting a possible match. Additionally, the birthdate '19550602' is not explicitly mentioned in Option A, but the birthdate format is the same, which"
+   },
+   {
+    "x": 2301,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Fran\u00e7ois, which matches the first name in Option A. The phone number is the same, and the CRM source is consistent. The only difference is the order of the names, but in French, it's common for people to have a first name followed by a last name (e.g., Fran\u00e7ois Louis)."
+   },
+   {
+    "x": 2316,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "Different first name (\u00c9lisabeth vs \u00c9lisabeth), different date of birth (19701017 vs no date of birth), different address (87 r. Pasteur Strasbourg vs 33 r. Gambetta Marseille), different email address (elisabeth.brunet@free.fr vs no email address), different phone number (0762103671 vs 0762103671, b"
+   },
+   {
+    "x": 2342,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "The subject record has a first name 'Louis' and a last name 'Dubois', but option A has a first name 'Louis' and a last name 'Dubois' as well, but the addresses and dates of birth do not match."
+   },
+   {
+    "x": 2348,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine the same person, as the options include different names (Micehl vs Mihel), different addresses (rue de la Gare vs 2 rue de la Paix, 6 bd Saint-Michel), and different contact information (86 vs 2, michel.francois@gmail.com vs no email in option A)."
+   },
+   {
+    "x": 2353,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject has the same first name, last name, and date of birth as option B, and the address and phone number match, indicating that these are likely the same person."
+   },
+   {
+    "x": 2386,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine if the subject is the same person as the options A and B, as the first name 'Laurence' is present in both, but the last name 'Faue' vs 'Faure' and the birthdate and address do not match exactly."
+   },
+   {
+    "x": 2449,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Guigui, which matches the first name in Option A. The addresses and phone numbers are also identical, suggesting that the subject and Option A are the same person."
+   },
+   {
+    "x": 2465,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'J.' which matches the first name 'J.' in Julien Mathieu, and the phone number 0750690371 matches, and the birthdate 19980710 matches, and the address 101 ch. des Vignes 78000 Versailles matches."
+   },
+   {
+    "x": 2511,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine if the subject is Thierry Faure or Thierry Mathieu, as the records contain different dates of birth, addresses, and email addresses."
+   },
+   {
+    "x": 2543,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Different first names (Christophe vs Christine), different date of birth, and different addresses suggest different individuals, but the phone number and email address are the same."
+   },
+   {
+    "x": 2591,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "Different first name (H\u00e9l\u00e8ne vs H\u00e9l\u00e8ne), different date of birth (19810425 vs no date of birth), different address (pl. de la R\u00e9publique vs 14, chemin des Vignes), different email address (0775823314 vs helene.roux@laposte.net)"
+   }
+  ]
+ },
+ "pair/L3b": {
+  "n": 77,
+  "correct": 59,
+  "wrong": 18,
+  "wrong_merge": 17,
+  "wrong_none": 1,
+  "accuracy_on_decided": 0.766,
+  "coverage": 1.0,
+  "median_ms": 808,
+  "rows": [
+   {
+    "x": 1966,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in the subject record (uppercase 'L' and dot) are present in Option A, which matches the subject's record."
+   },
+   {
+    "x": 1968,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same birthdate (although not explicitly mentioned in the CRM record, it's a common practice to include birthdate in KYC records)."
+   },
+   {
+    "x": 1969,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same birthdate, and same email format (username@provider) suggest the same person."
+   },
+   {
+    "x": 1975,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, last name, and no other distinguishing characteristics that would indicate a different person."
+   },
+   {
+    "x": 1983,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, same address, and same birthdate (although the subject is 35, the record is also 35, likely an age, not a date of birth)"
+   },
+   {
+    "x": 1986,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Same first name, last name, and date of birth (although the subject's date of birth is not provided) are strong indicators that the subject is the same person as Option A."
+   },
+   {
+    "x": 1996,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same address format (avenue Victor Hugo), and same city (Boulogne-Billancourt in the subject, Toulouse in Option A, but same city format)."
+   },
+   {
+    "x": 1999,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same birthdate, same address (although different street name), and same phone number, indicating the same person."
+   },
+   {
+    "x": 2004,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same birthdate, same phone number, and same last name (Lefebvre) make it likely that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2009,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, last name, and phone number, indicating the same person."
+   },
+   {
+    "x": 2010,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same first name, same address, and same date of birth (although the subject record doesn't specify the date of birth, the option A record provides a matching date of birth)"
+   },
+   {
+    "x": 2011,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Same first name, same last name, same address, and same phone number (although the phone number is not explicitly mentioned in the subject record, it is likely the same given the KYC context)"
+   },
+   {
+    "x": 2012,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The first names 'J.P.' and 'J.' are likely to refer to the same person, and the last name 'Booyer' matches. The birthdate and address are different, but the email and phone number are not provided for the subject record, so these differences are not conclusive."
+   },
+   {
+    "x": 2016,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same address, and same birthdate (though in a different format) suggest the same person."
+   },
+   {
+    "x": 2018,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's first name and last name match exactly, and the birthdate is different, indicating a different person."
+   },
+   {
+    "x": 2019,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same first name, same last name, and same address (although different city)"
+   },
+   {
+    "x": 2027,
+    "answer": "A",
+    "truth": "A",
+    "reason": "All fields match: name, age, address, and phone number are identical."
+   },
+   {
+    "x": 2028,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first name 'Jean-Philippe' matches the subject's first name 'JP', and the last name 'Girard' matches exactly. The date of birth is different, but that's not a decisive factor in this case."
+   },
+   {
+    "x": 2029,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address (23 Avenue de la Libert\u00e9, Nantes) in both records, with only minor differences in formatting."
+   },
+   {
+    "x": 2030,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in the phone number and address format, but the first name and date of birth match."
+   },
+   {
+    "x": 2031,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same last name, same title (M.), different address, but same birthdate and no other identifying information suggests the same person."
+   },
+   {
+    "x": 2034,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in the last name (Bonnet vs BONNET) and the same birthdate, address, and other identifying information suggest that the subject record matches Option A."
+   },
+   {
+    "x": 2044,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in the first name 'Alexadre' instead of 'Alexandre' are the only difference between the subject and Option A, which matches the subject's name and phone number."
+   },
+   {
+    "x": 2050,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in the first name 'Sysvie' match the subject's first name 'Sylvie', and the birthdate, address, and phone number are identical."
+   },
+   {
+    "x": 2052,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, phone number, and address match, with only the birthdate differing by a few years."
+   },
+   {
+    "x": 2056,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same first name, same last name, and same date of birth (although not explicitly mentioned in the subject record, the birthdate is not provided in the subject record either), making it likely that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2058,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first name 'V.' (likely a French diminutive or nickname) and the address 'r. de la Gare Strasbourg' match exactly between the subject and Option A. The date of birth and phone number are different, but the first name and address are sufficient to conclude that Option A is the same person as the "
+   },
+   {
+    "x": 2076,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, same address (Rue Pasteur), and same birthdate is not provided but the subject record is marked as 'LEGACY' which suggests it's an older record, making it more likely to match with the CRM record."
+   },
+   {
+    "x": 2079,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Same birthdate, same address, and same phone number, despite different first names (P. vs Patricia)."
+   },
+   {
+    "x": 2084,
+    "answer": "A",
+    "truth": "A",
+    "reason": "All fields match, including name, date of birth, address, and email."
+   },
+   {
+    "x": 2090,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject and option B match exactly, including the street address, postal code, and phone number."
+   },
+   {
+    "x": 2092,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same birthdate, same age, same email address, and same postal code (Strasbourg) in the subject record and Option A, indicating a high likelihood of the same person."
+   },
+   {
+    "x": 2093,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Similar first name (Pateicia vs Patricia), same last name (Charpentier), and different addresses (Boulogne-Billancourt vs Rennes) suggest the same person."
+   },
+   {
+    "x": 2094,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same phone number, indicating the same person."
+   },
+   {
+    "x": 2096,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same first name, same last name, and same address (although different city) suggest the same person."
+   },
+   {
+    "x": 2100,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same phone number, different address, which is a common scenario for people who moved."
+   },
+   {
+    "x": 2101,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Similar last name (Duavl vs Duval), same first name (Christine), and different addresses and phone numbers suggest the same person."
+   },
+   {
+    "x": 2102,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Same first name, same last name, and same address, with only minor differences in capitalization and date of birth format."
+   },
+   {
+    "x": 2104,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address (although different format) suggest the same person."
+   },
+   {
+    "x": 2105,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same phone number, same address format (street name and city), and same postal code. The only difference is the street number, which could be an error or a move."
+   },
+   {
+    "x": 2106,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, last name, and phone number, with a matching date of birth and address (Rue des Lilas) in Strasbourg, which is a strong indication of the same person."
+   },
+   {
+    "x": 2117,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The addresses and birthdates match exactly, and the email addresses are different but the same domain (laposte.net vs laposte.email), indicating the same person."
+   },
+   {
+    "x": 2122,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same birthdate, age, and address, with only minor differences in formatting and capitalization."
+   },
+   {
+    "x": 2138,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address (although the street number is not specified in the subject record)"
+   },
+   {
+    "x": 2140,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, same address (chemin des Vignes Lyon), and same age (55)"
+   },
+   {
+    "x": 2144,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same birthdate (ignoring the typo in the subject record's birthdate format)"
+   },
+   {
+    "x": 2146,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first name 'Ane-Sophie' matches the subject's first name 'A.-S.', and the last name 'Marchand' matches exactly. The phone number also matches."
+   },
+   {
+    "x": 2158,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, same address (although the street number is not explicitly mentioned in the subject record, the street name 'R. DU MOULIN' matches exactly)"
+   },
+   {
+    "x": 2170,
+    "answer": "A",
+    "truth": "A",
+    "reason": "All fields match, including address and phone number, with only minor differences in formatting."
+   },
+   {
+    "x": 2173,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The phone number and address match, and the first name difference (Louise vs Lousie) is likely due to a typo."
+   },
+   {
+    "x": 2174,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address (25 BOULEVARD SAINT-MICHEL 67000 STRASBOURG) in the subject and Option A, with only minor differences in capitalization and formatting."
+   },
+   {
+    "x": 2178,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same last name, similar first name (Marie vs Marie), and different addresses, which could be due to a move. The birthdate and other identifying information are not available in the legacy record, but the similarity in first names and last name suggests it is the same person."
+   },
+   {
+    "x": 2185,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same first name, last name, and phone number, with only minor differences in date of birth and address."
+   },
+   {
+    "x": 2204,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, same address, and same phone number (although the CRM record does not have a birthdate)"
+   },
+   {
+    "x": 2205,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The only difference is the capitalization of the last name, which is a minor variation and does not affect the uniqueness of the record."
+   },
+   {
+    "x": 2211,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and different addresses, which is a common scenario for people who moved."
+   },
+   {
+    "x": 2213,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same address, and same email address, with only minor differences in capitalization and accents."
+   },
+   {
+    "x": 2231,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Both records have the same first name 'Philippe' and last name 'Denis', which suggests they are the same person."
+   },
+   {
+    "x": 2232,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first names 'Olivier' and 'Olivire' are likely typos, and the dates of birth are different, but the address and phone number match, indicating the same person."
+   },
+   {
+    "x": 2241,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address, with only minor differences in capitalization and accents."
+   },
+   {
+    "x": 2253,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same address, phone number, and email, but different birthdate and last name (Brunet vs Brunais), likely a typo or variation in the last name."
+   },
+   {
+    "x": 2270,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Similar first name and last name, same legacy flag, and different addresses (Versailles vs Lyon) suggest the same person."
+   },
+   {
+    "x": 2277,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, same address, and same legacy record type indicate the same person."
+   },
+   {
+    "x": 2289,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same first name, same last name, and same street name (although with different postal codes), suggesting the same person."
+   },
+   {
+    "x": 2298,
+    "answer": "NONE",
+    "truth": "NONE",
+    "reason": "Different first name and birthdate, no matching email address"
+   },
+   {
+    "x": 2299,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's initials 'J. Rneaud' match the first name 'Jean-Baptiste' in Option A, and the last name 'Renaud' is identical. The birthdate is not explicitly mentioned in Option A, but it's not a crucial factor in this case."
+   },
+   {
+    "x": 2301,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first and last names, same phone number, and same birthdate (although not explicitly mentioned in Option A, it's likely the same person given the matching phone number)"
+   },
+   {
+    "x": 2316,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same phone number, and same last name (Brunet) with a minor difference in capitalization, which is a common typo. The birthdate and address are different, but these could be updated or incorrect records."
+   },
+   {
+    "x": 2342,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address (although the subject record has a birthdate, the legacy record does not, but this is not enough to conclude they are different people)"
+   },
+   {
+    "x": 2348,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in first name (Micehl vs Mihel) and different address, but same birthdate and last name, indicate the same person."
+   },
+   {
+    "x": 2353,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Same first name, same last name, and same date of birth, with different address and phone number, indicating the same person"
+   },
+   {
+    "x": 2386,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "The subject record has a different birthdate and address than both options, and the first name is not a common nickname or diminutive. Option A has a birthdate that is too recent, and Option B has a different address and birthdate."
+   },
+   {
+    "x": 2449,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Guigui' and same phone number '0121304850' in both options, indicating a high likelihood of the same person."
+   },
+   {
+    "x": 2465,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first name 'Julien' matches the initials 'J.' in the subject record, and the last name 'Mathieu' matches exactly. The date of birth and address are different, but the phone number and CRM/LEGACY flags suggest that the records are related."
+   },
+   {
+    "x": 2511,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, last name, and city, with only minor differences in address and email."
+   },
+   {
+    "x": 2543,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same phone number, and same address (although the street name is not fully written out in the subject record)"
+   },
+   {
+    "x": 2591,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, different address and email, but similar phone number pattern, indicating the same person"
+   }
+  ]
+ },
+ "fiche_cluster/L3a": {
+  "n": 77,
+  "wrong": 44,
+  "wrong_merge": 43,
+  "unsure": 4,
+  "correct": 29,
+  "wrong_none": 1,
+  "accuracy_on_decided": 0.397,
+  "coverage": 0.948,
+  "median_ms": 634,
+  "rows": [
+   {
+    "x": 1966,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is 'Louise', but in Option B, the first name is 'GIRARD Louise', which is a common French diminutive and nickname format. The addresses and phone numbers match, so it's likely that these are the same person."
+   },
+   {
+    "x": 1968,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to determine if the subject matches either Option A or Option B, as the dates of birth are unknown and the addresses and phones may belong to different individuals."
+   },
+   {
+    "x": 1969,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a more complete set of information, including a different but plausible first name (Charles Charpentier) and a different address, which suggests that it is describing the same person as the subject record."
+   },
+   {
+    "x": 1975,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name, last name, and contact information as the subject record, but with a different email address. This suggests that the subject record may be a variant of the record in Option B, possibly with a different email address used in the past."
+   },
+   {
+    "x": 1983,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has consistent names (Charlotte Leroy vs Charlotte LEORY), dates of birth, and addresses, which suggests that these records describe the same person. The slight difference in phone number and source is likely due to data entry variations rather than a different individual."
+   },
+   {
+    "x": 1986,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has a unique date of birth and phone number, which distinguishes it from the subject record. The other information matches, suggesting that these are the same person."
+   },
+   {
+    "x": 1996,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is 'Laurent', which matches the first name in Option B. The addresses, while different, are in the same city (Toulouse) and have a similar structure, suggesting a possible connection. The phone number in Option B is also in the same format as the subject's phone number. The "
+   },
+   {
+    "x": 1999,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name 'Anne-Sophie' and the same last name 'Marchand', which is a common practice in French names. The only difference is the address, which is not sufficient to conclude that the records do not belong to the same person. The dates of birth are unknown, but this is not unc"
+   },
+   {
+    "x": 2004,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name 'Marie' as the subject, and the same last name 'Lefebvre', but the addresses and date of birth are different. The phone number is also the same. The fact that the date of birth is unknown in Option B suggests that the record may be incomplete or not up-to-date, but i"
+   },
+   {
+    "x": 2009,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a confirmed date of birth, which is not present in Option A, making it a more reliable match for the subject record."
+   },
+   {
+    "x": 2010,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has a different address, but the names and dates of birth match, suggesting the same person. The difference in address is likely due to the person moving, which is a common reason for multiple records of the same person."
+   },
+   {
+    "x": 2011,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has the same first name, address, and email as the subject record, but the phone number and date of birth are different. However, the French diminutive 'Rey' is often used as a nickname, so it's possible that the subject is Fr\u00e9d\u00e9ric Rey, but the provided information is not sufficient to con"
+   },
+   {
+    "x": 2012,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has a more complete set of information, including a full name, date of birth, and address, which matches the subject record. The other options have incomplete or inconsistent information."
+   },
+   {
+    "x": 2016,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a different date of birth, which is a strong indicator of a different person. Although the names and addresses match, the additional information (email, phone, CRM source) suggests a different individual."
+   },
+   {
+    "x": 2018,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has more detailed information (email and phone) and a different date of birth, which suggests a different person. Option A has a more complete name, but the same date of birth, which suggests the same person. The difference in names between the two options (CHARPENTIER vs Charpentier) is li"
+   },
+   {
+    "x": 2019,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has the same first name and last name as the subject, and a phone number that could potentially match the subject's phone number. The only difference is the date of birth, which is unknown in both options. Since the subject's date of birth is known, option B is the most likely match."
+   },
+   {
+    "x": 2027,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a confirmed date of birth, which is not present in Option A, but the other attributes match, suggesting that Option B is the correct record for Thierry Henry."
+   },
+   {
+    "x": 2028,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'JP GIRARD' and 'Jean-Philippe Girard' are likely the same person, as 'JP' is a common French abbreviation for 'Jean-Philippe'. The dates of birth and sources match, indicating that the records are likely describing the same person."
+   },
+   {
+    "x": 2029,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has multiple records with the same first and last name, same date of birth, and same address, which suggests that they are describing the same person. The only difference is the source, but this is not conclusive. However, the presence of multiple records with the same information increases"
+   },
+   {
+    "x": 2030,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the correct first name 'Michel' and the correct phone number '0696834892', which matches the subject record. The only difference is the case of the last name 'ANDRE' vs 'AND\u00c9' in the subject record, but this is a common French diminutive form, so it's likely the same person."
+   },
+   {
+    "x": 2031,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has more information about the person, including a specific address, phone number, and email, which suggests a more complete record. Option B is missing the address and phone number, making it less likely to be the same person."
+   },
+   {
+    "x": 2034,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a phone number, which is not present in Option A, but the names, addresses, and sources are the same, suggesting that the subject is the same person as the records in Option B."
+   },
+   {
+    "x": 2044,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a more complete set of information, including a specific address, which is less likely to be changed, and a more common French naming convention (Alexandre vs Alexandre). Option A is missing this crucial information."
+   },
+   {
+    "x": 2050,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name, last name, and address as the subject record, but the dates of birth are unknown. Since the subject's date of birth is known, option B is the most likely to describe the same person."
+   },
+   {
+    "x": 2052,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a different date of birth, which is a strong indicator that the records describe different people. Although the names and other attributes match, the discrepancy in date of birth suggests a different individual."
+   },
+   {
+    "x": 2056,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has the same first name 'Jeanne' and last name 'Boyer' as the subject, and the same date of birth '19440919' which is also present in the subject record. The addresses and sources do not match exactly, but the combination of first name, last name and date of birth is sufficient to identify "
+   },
+   {
+    "x": 2058,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a different first name ('Val\u00e9rie') and a different date of birth, which suggests a different person. Although the addresses and sources match, the differences in other fields indicate a distinct individual."
+   },
+   {
+    "x": 2076,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is Laurence Fran\u00e7ois, which matches the names in Option A. The addresses and dates of birth also match, and the phones and sources are consistent across the records in Option A. The only difference is the phone number, but it's possible that the phone number was updated or changed"
+   },
+   {
+    "x": 2079,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name ('Patricia') and date of birth ('19831003') as the subject, and the same address ('93 rue de la Paix 59000 Lille'). The only difference is the last name ('Charpentier' vs 'Charpenteir'), but in French, 'Charpenteir' is a common diminutive form of 'Charpentier'."
+   },
+   {
+    "x": 2084,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same address, email, and phone number as the subject record, but the dates of birth are unknown. Since the subject's date of birth is known, option B does not match the subject record. However, option B is still a group of records that are likely to be the same person, as they share"
+   },
+   {
+    "x": 2090,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the correct phone number and source (CRM), which matches the subject record. The only difference is the capitalization of 'R' in the address, but this is a common variation in French addresses."
+   },
+   {
+    "x": 2092,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same email address as the subject record, and the phone number matches. Although the date of birth is unknown, the other information matches, suggesting that this is the same person."
+   },
+   {
+    "x": 2093,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has a different date of birth, which is a strong indicator that the records describe different people. Although the names are similar, the difference in date of birth and phone number suggests that the records belong to different individuals."
+   },
+   {
+    "x": 2094,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's name is 'Louise Dubois', but option B has 'Louis Dubois', which is a different name. However, the addresses and phone numbers match, and the dates of birth are unknown, which could be a common characteristic. Given the limited information, it's possible that the subject is 'Louis Duboi"
+   },
+   {
+    "x": 2096,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has a match for the first name 'Nicolas' in both records, and the dates of birth and addresses are consistent across both records, suggesting that these two records describe the same person."
+   },
+   {
+    "x": 2100,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a confirmed date of birth, which is not present in Option A. This suggests that the two records are likely describing the same person, as the date of birth is a unique identifier."
+   },
+   {
+    "x": 2101,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject's name, address, and phone number match the cluster of records in Option A, suggesting that they are the same person."
+   },
+   {
+    "x": 2102,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject's name is Jos\u00e9phine, but Option B has Josephine, which is a common French diminutive form. The addresses and dates of birth match, and the sources are CRM, which is consistent with the subject's record. The difference in name is likely due to the use of a diminutive form, making Option B"
+   },
+   {
+    "x": 2104,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name, 'Paul Denis', matches the names in Option A, and the addresses and phone number also match. The dates of birth are unknown, but this is not uncommon for legacy data. The sources match as well. Given the information, it is likely that Option A describes the same person as the subj"
+   },
+   {
+    "x": 2105,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same first name, address, and phone number as the subject record, but a different city and source. The different city and source do not necessarily indicate a different person, especially considering the possibility of a different date of birth or a different record source with the "
+   },
+   {
+    "x": 2106,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has a complete set of consistent information (names, dates of birth, addresses, phones, and sources), while Option B is missing the date of birth, making it less likely to be the same person."
+   },
+   {
+    "x": 2117,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has the same first name, address, and email as the subject record, but with a different source (CRM instead of LEGACY). This suggests that the records may be from different data sources or updates, but still describe the same person."
+   },
+   {
+    "x": 2122,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a different date of birth, but the other information (names, addresses, phone number, and email) matches the subject record, suggesting that the subject is the same person as the cluster in Option B."
+   },
+   {
+    "x": 2138,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Christophe REY' and 'Christophe Robin' are likely the same person, as 'Rey' is a French diminutive form of 'Robin'. The dates of birth and addresses also match, indicating that the subject is the same person."
+   },
+   {
+    "x": 2140,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's name is St\u00e9phanie Renaud, but Option B has St\u00e9phanie David, which is likely a different person. However, the addresses and other information match, suggesting that the records might be describing the same person, possibly with a different name due to a nickname or diminutive."
+   },
+   {
+    "x": 2144,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject record 'Jeanne Pasquier' matches the cluster in Option A, as the names 'Jeanne PASQUIER', 'Jeanne Pasquiez', and 'Jeaanne PASQUIER' are variations of the same name, and the dates of birth, addresses, phones, and sources are consistent across all records in the cluster."
+   },
+   {
+    "x": 2146,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "The subject record has a first name 'A.-S.' which is different from the first name 'Ane-Sophie' in option A, and the subject record has a different phone number and email address."
+   },
+   {
+    "x": 2158,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is 'Julie Thibault', which matches the names in Option A. The dates of birth and addresses also match, indicating that the subject is likely the same person as the records in Option A."
+   },
+   {
+    "x": 2170,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a phone number that matches the subject's phone number, and an email address that is likely to be associated with the subject, whereas Option A does not have a phone number or email address."
+   },
+   {
+    "x": 2173,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a more complete and consistent set of data, including a different but still plausible first name (Louis instead of Louise), which suggests that these records describe the same person."
+   },
+   {
+    "x": 2174,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"B\", \"reason\": \"Option B contains multiple records with the same first name 'Benjamin', b"
+   },
+   {
+    "x": 2178,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name matches the names in Option A, and the address '104 R DE LA GARE 78000 VERSAILLES' is similar to '31 rue Pasteur 44000 Nantes', suggesting a possible match. However, the dates of birth are unknown, which could indicate a different person. Further analysis is needed to confirm the "
+   },
+   {
+    "x": 2185,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has a different date of birth, which is a strong indicator that the records describe different people. Although the names and addresses are similar, the difference in date of birth suggests a different individual."
+   },
+   {
+    "x": 2204,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name, date of birth, address, and phone number match the information in Option A, suggesting that they are the same person."
+   },
+   {
+    "x": 2205,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a confirmed date of birth, which is not present in Option A. This suggests that the records in Option A may describe different individuals, while Option B likely describes the same person."
+   },
+   {
+    "x": 2211,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject record matches the names and addresses in Option A, but the dates of birth are unknown. However, the addresses and names are consistent across all records, suggesting that they may belong to the same person. The fact that the dates of birth are unknown does not necessarily mean that the "
+   },
+   {
+    "x": 2213,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name and date of birth match the cluster, and the addresses are very similar, indicating a high degree of consistency across the options. The sources also match, suggesting that the records are likely from the same source and are describing the same person."
+   },
+   {
+    "x": 2231,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient information, no clear matches for the subject's names, dates of birth, and sources."
+   },
+   {
+    "x": 2232,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B contains multiple names (Olivier and Oli) and addresses (different streets and numbers), which suggests different individuals. However, the dates of birth and phones are consistent across the records, and the emails and sources are also consistent. This inconsistency makes it difficult to d"
+   },
+   {
+    "x": 2241,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has multiple records with the same date of birth, which is a strong indicator of the same person. The additional information such as emails, phones, and different addresses also suggests that these records describe the same person."
+   },
+   {
+    "x": 2253,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has a consistent set of names (\u00c9lisabeth BRUNAIS and \u00c9lisabeth Brunais), addresses (63, avenue de la Libert\u00e9 78000 Versailles and 63 AVENUE DE LA LIBERT\u00c9 78000 VERSAILLES), and phone numbers (0618395355), which suggests that these records describe the same person. The dates of birth are als"
+   },
+   {
+    "x": 2270,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has a known date of birth, which is a distinguishing characteristic, and the names 'Gabrinl' and 'Denis' are likely variations of 'Gabriel' and 'Denis', respectively, given the French context."
+   },
+   {
+    "x": 2277,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B contains a French diminutive 'Mercier' which is a common way to address someone, and the dates of birth and addresses are different, but the phone numbers and sources are the same, suggesting that these two records might be the same person."
+   },
+   {
+    "x": 2289,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has a different first name ('H\u00e9l\u00e8ne') and a different city ('Lille') compared to the subject record, but the same CRM source and a different phone number. The different phone number and city suggest a different person, but the different first name could be a French diminutive or nickname. W"
+   },
+   {
+    "x": 2298,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject's name is 'Jeanne DAIVD', but option A contains 'Jean-Pierre David' and 'Jean Pierre DAVID', which are likely variations of the same person. The addresses and email match, and the dates of birth are the same. The sources are also consistent. Therefore, it is likely that the subject is th"
+   },
+   {
+    "x": 2299,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'J. Rneaud', which matches the first name 'Jean-Baptiste' in Option A. The addresses, emails, and phone numbers also match, indicating that the subject is likely the same person as the records in Option A."
+   },
+   {
+    "x": 2301,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a different date of birth (unknown) and a different source (LEGACY) compared to the subject record, but the names, addresses, and phones match, suggesting it could be the same person. However, the exact match is not possible due to the unknown date of birth. A more thorough analysis wou"
+   },
+   {
+    "x": 2316,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Inconsistent information: names ['\u00c9lisabeth BRUNET'] vs addresses ['33, r. Gambetta Marseille'] and phones ['0762103671'] vs 'elisabeth.brunet@free.fr' and 'tel 0762103671' (different formats), and also different city (Strasbourg vs Marseille). Insufficient evidence to confirm the identity of the su"
+   },
+   {
+    "x": 2342,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name and address match the cluster's name and address, and the dates of birth are unknown, which is consistent with the cluster's description. The sources also match, indicating that the cluster's information is likely to be accurate."
+   },
+   {
+    "x": 2348,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same date of birth, address, and email as the subject record, and the name 'M. Fran\u00e7ois' is a common French way to write a person's name with a title and last name, indicating that the subject is likely the same person as the record in Option B."
+   },
+   {
+    "x": 2353,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has the same first name, last name, address, and phone number as the subject record, which suggests that it describes the same person."
+   },
+   {
+    "x": 2386,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is Laurence Faue, but Option A includes a variant 'Faure' which is a common French diminutive form. The addresses and phone numbers match, so it's likely that these are the same person."
+   },
+   {
+    "x": 2449,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Guillaume Lefebvre' and 'Guigui Lefebvre' are likely the same person, as 'Guigui' is a French diminutive form of 'Guillaume'. The addresses and phone number match, and the source is the same CRM. The only difference is the date of birth, but the dates of birth in both options are the same"
+   },
+   {
+    "x": 2465,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'J. MATHIEU' and 'Julien Mathieu' are likely the same person, as the French diminutive 'J.' is often used for short names. The dates of birth and addresses match, and the sources are the same. This suggests that the subject record is likely the same person as the cluster in Option A."
+   },
+   {
+    "x": 2511,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has consistent names, dates of birth, addresses, emails, and phone numbers, which suggests that the records describe the same person."
+   },
+   {
+    "x": 2543,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Christophe Blannc', 'Christophe Blanc', and 'Christophe Balnc' are likely variations of the same name, and the dates of birth and addresses match. The phone numbers also match, indicating that these records describe the same person."
+   },
+   {
+    "x": 2591,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name, address, and contact information match the cluster of records in Option A, suggesting that they are the same person."
+   }
+  ]
+ },
+ "fiche_cluster/L3b": {
+  "n": 77,
+  "correct": 50,
+  "wrong": 27,
+  "wrong_merge": 26,
+  "wrong_none": 1,
+  "accuracy_on_decided": 0.649,
+  "coverage": 1.0,
+  "median_ms": 960,
+  "rows": [
+   {
+    "x": 1966,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Louise', same last name 'Girard', same phone number '0118338937', and same address format 'rue Pasteur' in both options, indicating a strong match."
+   },
+   {
+    "x": 1968,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Anne' and different last name 'Rey' vs 'Roux', but no other matching information"
+   },
+   {
+    "x": 1969,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's last name 'Masson' matches the last name in Option A, and the first name 'Charles' is identical. Although the addresses and emails are different, it's possible that the subject has moved or changed contact information."
+   },
+   {
+    "x": 1975,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, last name, and address (although different city) in Option A, with unknown dates of birth, which matches the subject's information."
+   },
+   {
+    "x": 1983,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar names, dates of birth, and addresses match, with only minor typos and case differences."
+   },
+   {
+    "x": 1986,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The subject's name and email address match one of the records in Option A, and the phone number is different but plausible. The dates of birth are different, but this is not a decisive factor."
+   },
+   {
+    "x": 1996,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Laurent' and address 'Avenue Victor Hugo' in both options, with Option A having a more specific address in Boulogne-Billancourt, which is closer to the subject's address."
+   },
+   {
+    "x": 1999,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same date of birth in both options, with the only difference being the address, which is not a decisive factor in determining identity."
+   },
+   {
+    "x": 2004,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same phone number match the subject record."
+   },
+   {
+    "x": 2009,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's address and phone number match the cluster B, and the date of birth is unknown in both options, so the subject is likely the same person as the cluster B."
+   },
+   {
+    "x": 2010,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same name, same address, and same date of birth in both options, with the only difference being the postal code, which is not a significant difference for entity resolution."
+   },
+   {
+    "x": 2011,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Same first name, same last name, and same address in both options, with only minor differences in email addresses and phone numbers."
+   },
+   {
+    "x": 2012,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The names 'J. Boyer' in Option A match the subject's name 'J.P. Booyer', and the dates of birth and addresses are different, indicating that the subject is likely the same person as the one in Option A."
+   },
+   {
+    "x": 2016,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Different date of birth and address, but same name and no other identifying information matches, suggests the subject is the same person as the records in Option B."
+   },
+   {
+    "x": 2018,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's name is Gabrielle Charpentier, which matches the name in Option B. The dates of birth are different, but this could be due to a person moving or having a different identity at some point. The presence of emails and phones in Option B provides additional evidence that the subject is the"
+   },
+   {
+    "x": 2019,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The first name 'Fr\u00e9d\u00e9ric' matches the subject's first name 'Fr\u00e9d\u00e9riqeu', and the last name 'Rei' is a common variation of 'Rey'. The address is different, but the LEGACY source suggests that these records are from the same system and may have been updated or migrated."
+   },
+   {
+    "x": 2027,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, phone number, and address, but different date of birth is unknown in the subject record, so it's likely the same person"
+   },
+   {
+    "x": 2028,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's full name is JP GIRARD, which matches the name 'Jean-Philippe Girard' in option A. The phone number and address also match."
+   },
+   {
+    "x": 2029,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and similar address format (street name and city) in both options, making it likely that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2030,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Michel Andr\u00e9' in the subject record match the names 'Michel Andre' in Option A, and the address '92, ave Victor Hugo 44000 Nantes' in the subject record matches the address in Option A. The dates of birth are unknown in both options, which is not a distinguishing factor. The phone number "
+   },
+   {
+    "x": 2031,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'M. Duval' match, and the address format is different, but the city is not Toulouse, which suggests that the subject and the records in Option A are likely the same person."
+   },
+   {
+    "x": 2034,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's last name is 'Bonnet', which matches the last name in Option A. The address also matches. Although the phone number is not available in Option A, the other information is consistent enough to conclude that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2044,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name matches exactly with the name in Option A, and the phone number is also the same. The lack of dates of birth and addresses makes it difficult to distinguish between the two options, but the name and phone number match perfectly."
+   },
+   {
+    "x": 2050,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Sylvie Chevalier' match exactly, and the date of birth and address also match, making it likely that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2052,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same date of birth and phone number match"
+   },
+   {
+    "x": 2056,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject's name is Jean Boier, which matches the first name 'Jeanne' in Option B, but the last name 'Boier' matches. The dates of birth are different, but the address is not a perfect match. The sources are different, but the LEGACY source is often used for older records. The UNSURE option is not"
+   },
+   {
+    "x": 2058,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The first names 'V.' and 'Val\u00e9rie' are not identical, but the last name 'Bonnet' and the address '68 RUE DE LA GARE 67000 STRASBOURG' match, making Option A the most likely candidate."
+   },
+   {
+    "x": 2076,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject record has the same name and address as the records in Option A, with minor variations in formatting and typos."
+   },
+   {
+    "x": 2079,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's first name is P., which is likely an abbreviation for Patricia, and the address matches exactly."
+   },
+   {
+    "x": 2084,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'St\u00e9phane Vincent' match exactly, and the dates of birth and address also match, making it likely that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2090,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record matches Option B exactly, with the same name, address, and phone number."
+   },
+   {
+    "x": 2092,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's email address matches Option B, and the phone number is also present in Option B. Although the addresses are different, the subject's name is not a common combination of first and last names, making it likely that the same person is described in Option B."
+   },
+   {
+    "x": 2093,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The names 'Pateicia' and 'Patricia' are likely typos of each other, and the addresses are different, but the dates of birth match, which is a strong indicator of the same person."
+   },
+   {
+    "x": 2094,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is Louise, which matches the first name in Option A. The last name is Dubois, which is also the same in Option A. The phone number is the same in both options, which further supports the match."
+   },
+   {
+    "x": 2096,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject record has the same first name 'Nicolas' and the same date of birth 'unknown' as the cluster in Option B. The addresses are different, but the phone number is not provided in the subject record, so it's not a decisive factor. The names 'Nicolas LAURRENT' and 'Nicolas Laurennt' in Option "
+   },
+   {
+    "x": 2100,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject record matches Option B in terms of name and phone number, which are the most reliable identifiers. The dates of birth are unknown in the subject record, but this does not necessarily mean they are different, as this information may not be available. The addresses are different, but this"
+   },
+   {
+    "x": 2101,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Similar last name 'Duavl' is likely a typo or variation of 'Duval', and the addresses are different, but the first name 'Christine' matches."
+   },
+   {
+    "x": 2102,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject record has the same name and address as the records in Option A, with only a minor difference in the spelling of the first name ('Jos\u00e9phine' vs 'Jos\u00e9ahine')."
+   },
+   {
+    "x": 2104,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Paul' and last name 'Denis' match, and the address is also the same."
+   },
+   {
+    "x": 2105,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same phone number, and different address, which could be due to a move, but no other identifying information is available to contradict this match."
+   },
+   {
+    "x": 2106,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'H. Roussel' match exactly, and the phone number and address are different but not uncommon for the same person."
+   },
+   {
+    "x": 2117,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject's email address matches the email address in Option B, and the address is identical, with only a minor difference in the comma usage."
+   },
+   {
+    "x": 2122,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Matching full name, date of birth, and address"
+   },
+   {
+    "x": 2138,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name, date of birth, and address match exactly with Option A, making it the most likely match."
+   },
+   {
+    "x": 2140,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's name is St\u00e9phanie Renaud, which matches the first name in Option B. Although the last name is different, it's possible that the subject has changed their last name. The address and phone number in Option B are different from the subject's address, but this doesn't necessarily mean they"
+   },
+   {
+    "x": 2144,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject Jeanne Pasquier matches the Option A cluster, as the names, dates of birth, and addresses are identical."
+   },
+   {
+    "x": 2146,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's full name, A.-S. Marchand, matches the full name in Option A, 'Ane-Sophie Marchand', with the same last name and initials."
+   },
+   {
+    "x": 2158,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same address, and same phone number in both options, with only minor differences in capitalization and formatting."
+   },
+   {
+    "x": 2170,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The addresses and phone numbers match exactly, and the names are identical, making it likely that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2173,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is Louise Chevaliez, which matches the names in Option A ('Lousie CHEVALIER', 'Louise Chevtlier', 'Louies Chevalier') with typos and case variations. The dates of birth, addresses, and phones also match."
+   },
+   {
+    "x": 2174,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, date of birth, and address, with a matching email and phone number, all from different sources, making it likely that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2178,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "Different birthdate and address"
+   },
+   {
+    "x": 2185,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same name, date of birth, and address, with the only difference being the source"
+   },
+   {
+    "x": 2204,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name 'Frederic' matches the first name 'Fr\u00e9d\u00e9ric' in Option A, and the address '120 avenue Victor Hugo 78000 Versailles' also matches. The only difference is the date of birth, which is unknown in Option A, but this does not necessarily indicate that the subject is a different pe"
+   },
+   {
+    "x": 2205,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names, dates of birth, addresses, and contact information match exactly between the subject and Option A, making it the most likely match."
+   },
+   {
+    "x": 2211,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Julien' and last name 'Rey', different address, but no other identifying information matches."
+   },
+   {
+    "x": 2213,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's full name, Marie-Th\u00e9r\u00e8se BONNET, matches the first record in option A. The addresses and email also match."
+   },
+   {
+    "x": 2231,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name matches exactly with the name in Option A, with no typos, accents, or other discrepancies."
+   },
+   {
+    "x": 2232,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's name is Olivier Rousseau, which matches the first name 'Olivier' in Option B. Although the last name is different, it's possible that the subject has changed their last name or that there's an error in the legacy data. The dates of birth and addresses also match, making Option B the mo"
+   },
+   {
+    "x": 2241,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject Michele Lefebvre shares the same last name and address with Option B, and the first name 'Michele' is also present in Option B. Although the first name is spelled differently in the subject record, it is a common variation in French names. The dates of birth and other identifying informa"
+   },
+   {
+    "x": 2253,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar names, same address, and phone number match the subject record."
+   },
+   {
+    "x": 2270,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's name is Gabriel Denis, which matches the first name and last name in Option B. Although the addresses are different, the subject's name is the most significant identifier, and the dates of birth are also available in Option B, which further supports the match."
+   },
+   {
+    "x": 2277,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address in both options, with only minor differences in formatting."
+   },
+   {
+    "x": 2289,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names 'H\u00e9l\u00e8ne Michel' match the subject, and the address '1, rue des Lilas 75002 Paris' is similar to '15 R DES LILAS 44000 NANTES' (same street name and similar address format), indicating a likely match."
+   },
+   {
+    "x": 2298,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject's first name is Jeanne, which is a feminine form of Jean, and the last name is DAIVD, which is likely a typo or variation of the common French surname DAVID. The address and email also match the cluster in option A. The only difference is the date of birth, but this could be a different "
+   },
+   {
+    "x": 2299,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's initials 'J. Rneaud' match the first name 'Jean-Baptiste' in Option A, and the address and phone number also match, making it likely that the subject is the same person as the records in Option A."
+   },
+   {
+    "x": 2301,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Louis Fran\u00e7ois' in Option A match the subject's name 'Fran\u00e7ois Louis', and the phone number '0667731126' is the same in both options, indicating a strong likelihood of the subject being the same person as the records in Option A."
+   },
+   {
+    "x": 2316,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, phone number, and address (although different street name) suggest the same person."
+   },
+   {
+    "x": 2342,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name and last name, same address, and same source (LEGACY)"
+   },
+   {
+    "x": 2348,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's address matches Option B, and the date of birth and first name (Micehl vs M.) are minor variations that can be attributed to data entry errors."
+   },
+   {
+    "x": 2353,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names 'Christian Leroy' match, and the date of birth is known for the subject, but unknown for the option A records. The addresses and phones also do not match, so option A is the best match."
+   },
+   {
+    "x": 2386,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name and address match the cluster, and the phone number is different but not uncommon for a different phone line."
+   },
+   {
+    "x": 2449,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is Guigui Lefebvre, which matches the first name 'Guillaume' in Option A, and the last name 'Lefebvre' is the same. The phone number also matches."
+   },
+   {
+    "x": 2465,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's initials 'J.' match the first name 'Julien' in Option A, and the phone number and address also match."
+   },
+   {
+    "x": 2511,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject Thierry Faure matches Thierry Mathieu in Option B, considering the same first name, date of birth, and address in Lyon. The slight difference in last name (Faure vs Mathieu) is common in French culture, and the presence of the same phone number and email address further supports the matc"
+   },
+   {
+    "x": 2543,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name, phone number, and address match the records in Option A, with only minor variations in spelling (e.g. 'Blannc' vs 'Blanc'). The dates of birth and other information also match."
+   },
+   {
+    "x": 2591,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and different addresses and dates of birth, indicating different locations and ages, but same person"
+   }
+  ]
+ },
+ "cluster_cluster/L3a": {
+  "n": 77,
+  "correct": 35,
+  "unsure": 9,
+  "wrong": 33,
+  "wrong_merge": 32,
+  "wrong_none": 1,
+  "accuracy_on_decided": 0.515,
+  "coverage": 0.883,
+  "median_ms": 924,
+  "rows": [
+   {
+    "x": 1966,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is 'Louise Girard' and the option A has the same name with the same case ('Louise GIRARD') and the same last name ('Girard'). The dates of birth and addresses are the same. The phone number is also the same. The only difference is the source, but since it's the same source ('CRM')"
+   },
+   {
+    "x": 1968,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has the same first name 'Anne' and last name 'Rey' as Option A, and the same phone number '0642244788' as Option A. Although the dates of birth are unknown, the other information matches, suggesting that the subject is likely the same person as Option A."
+   },
+   {
+    "x": 1969,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"A\", \"reason\": \"The subject's names ['Charles Masson'] and dates of birth ['19880213'] ma"
+   },
+   {
+    "x": 1975,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "Insufficient evidence to confirm the same person, as the subject has a confirmed internal link, but the options do not match the address, phone number, or source of the subject."
+   },
+   {
+    "x": 1983,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has a similar name structure to Option B, with a French diminutive ('Leroi' instead of 'Leroy') and a different first name ('Charlote' instead of 'Charlotte'). The addresses and dates of birth are also similar, suggesting that the subject is likely the same person as Option B."
+   },
+   {
+    "x": 1986,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's name, address, and phone number match Option B's record, while the dates of birth and source differ. However, the subject's email address matches Option B's record. Given the information, it is possible that the subject is the same person as Option B, but without further evidence, it i"
+   },
+   {
+    "x": 1996,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has the same first name 'Laurent', same date of birth '19610408', and same address '60 avenue Victor Hugo Boulogne-Billancourt' as Option A. Although the names are written in different cases, the French diminutive 'LEFEBVRE' is likely a nickname or a variant of the surname 'Lefebvre', wh"
+   },
+   {
+    "x": 1999,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Anne-Sophie Marchand' and 'A.-S. Marchand' are likely the same due to the use of the French diminutive '-S.' in both names. The addresses and dates of birth are also consistent, suggesting that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2004,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"A\", \"reason\": \"The subject has a confirmed internal link, which suggests that the analys"
+   },
+   {
+    "x": 2009,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's address has a comma separating the street number from the street name, which is consistent with Option B's address format. The dates of birth are also consistent, and the phone number matches. The only difference is the source, but since the subject's source is 'CRM' and Option B's sou"
+   },
+   {
+    "x": 2010,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject has the same first name 'F. Rey' as Option A, and the same address '40 rue de la Gare 67000 Strasbourg'. Although the dates of birth are different, the addresses and names are sufficient to confirm that the subject matches Option A."
+   },
+   {
+    "x": 2011,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The subject has the same address, phone number, and source as Option A, and the names 'Fr\u00e9d\u00e9ric Rey' and 'Frederique Rey' are likely variations of the same name, considering French diminutives and nicknames. The dates of birth are unknown, but this is not uncommon in customer master data. The emails"
+   },
+   {
+    "x": 2012,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The subject's address matches the address in Option B, and the dates of birth are also consistent. The names 'J.P. Booyer' and 'Jean-Paul Boyer' are likely variations of the same name, and the emails and phone numbers in Option B match the subject's. The only difference is the source, but this can b"
+   },
+   {
+    "x": 2016,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has a different address, but the other information (names, dates of birth, emails, and phone numbers) matches the subject group."
+   },
+   {
+    "x": 2018,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has a confirmed internal link, which is not present in the subject group. However, the names and dates of birth match, and the additional information (email and phone) suggests that the subject group is likely the same person as Option B."
+   },
+   {
+    "x": 2019,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject's names ['Fr\u00e9d\u00e9riqeu Rey'] and dates of birth ['19760307'] match Option A's names ['Fr\u00e9d\u00e9ric Rei'] and dates of birth ['19760307'], and the addresses ['104 chemin des Vignes 06000 Nice'] are similar to Option A's address ['3, chemin des Vignes Nantes'], suggesting a possible typo or vari"
+   },
+   {
+    "x": 2027,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has a different address, but the dates of birth, phone numbers, and sources match. The different address suggests a different person, but the other information is consistent across all options, making option B the most likely match."
+   },
+   {
+    "x": 2028,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'JP' which is a common French diminutive for 'Jean-Philippe'. The subject's last name is 'GIRARD', which is the same as the first group's last name. The subject's phone number and address are also the same as the first group's. The only difference is the source, but since"
+   },
+   {
+    "x": 2029,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Different first name ('Laurent' vs 'N. Laurent'), but same date of birth and address, which suggests a possible alias or nickname."
+   },
+   {
+    "x": 2030,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has a confirmed internal link, which means it is a confirmed match. Option A has the same names, address, and source as the subject, making it the most likely match."
+   },
+   {
+    "x": 2031,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has a confirmed internal link, but the other options do not. The subject's address and phone number match the address and phone number in Option A, and the email address 'michele.duval@gmail.com' suggests a possible connection to the French diminutive 'Duval' (e.g., Michel Duval). While "
+   },
+   {
+    "x": 2034,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has a confirmed internal link, which means it is a confirmed match. Option A has the same names, address, and date of birth as the subject, making it the most likely match."
+   },
+   {
+    "x": 2044,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has an address that matches Option B, and the phone number is consistent across all options. The only difference is the source, which is LEGACY for Option B, but this is not a strong indicator of a mismatch. The names are also consistent across all options, with the only difference being"
+   },
+   {
+    "x": 2050,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name, address, and phone number match Option A's record, and the dates of birth are the same. The only difference is the source, which is CRM for the subject and KYC for Option A. However, since the subject's internal links are confirmed and Option A's internal links are also confirmed"
+   },
+   {
+    "x": 2052,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has a phone number that matches Option B, and the dates of birth are also consistent with Option B. Although the addresses are different, the phone number and dates of birth are strong indicators of the same person. Option B is the most likely match."
+   },
+   {
+    "x": 2056,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject has the same first name 'Jean' as Option B, and the same last name 'Boyer' as Option B. The addresses and dates of birth also match. The only difference is the case of the first name in the subject, but this is likely a typo. Therefore, the subject is likely the same person as Option B."
+   },
+   {
+    "x": 2058,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has a different first name ('V.' vs 'Val\u00e9rie') and a different date of birth, but the addresses, sources, and confirmed internal links are the same, suggesting that the subject is likely the same person as Option B."
+   },
+   {
+    "x": 2076,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is 'Laurence Fran\u00e7ois' and one of the options has 'Laurence Fran\u00e7ois' as a name, which matches. The addresses and dates of birth are also consistent across the options. The only difference is the phone number, but it's possible that the phone number was updated or changed over tim"
+   },
+   {
+    "x": 2079,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's address and phone number match Option B's, and the dates of birth and names are very similar, with the subject's name being a common French diminutive form 'Patou' instead of 'Patricia'. This suggests that the subject is likely the same person as Option B."
+   },
+   {
+    "x": 2084,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has the same address, dates of birth, and confirmed internal links as Option B. The only difference is the name, which is 'St\u00e9phane' in the subject and 'Stephane' in Option B. However, the subject has a phone number and email that match Option B's email, suggesting that the name differen"
+   },
+   {
+    "x": 2090,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has the same address, phone number, and source as the subject group, and the only difference is the case of the street name, which is a common variation in French addresses."
+   },
+   {
+    "x": 2092,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"B\", \"reason\": \"The subject has the same email address as Option B, and the address in Op"
+   },
+   {
+    "x": 2093,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The subject has the same last name 'Charpentier', and the same address type ('avenue' vs 'all\u00e9e', but the same city and postal code). The dates of birth are also the same (1973-10-04). The only difference is the first name, but 'Patricia' and 'Pateicia' are likely variations of the same name, and th"
+   },
+   {
+    "x": 2094,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has the same last name 'Dubois', but the first name 'Louise' is different from 'Louis' in option B. However, considering the French diminutive suffix '-ois' is common, and the address is the same, it's possible that the subject is the same person as option B. Without more information, it"
+   },
+   {
+    "x": 2096,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "Option B has a confirmed internal link, which is a strong indication that the records describe the same person. The slight variations in names (LAURRENT vs LAURENT) and addresses (with and without spaces) are likely typos or minor discrepancies, and the presence of both 'LEGACY' and 'KYC' sources su"
+   },
+   {
+    "x": 2100,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject group has a confirmed internal link, but the other group does not. However, the phone number and KYC source match, and the dates of birth are the same. The address in the subject group is different, but it's possible that the person moved. The email address in option A is not a perfect m"
+   },
+   {
+    "x": 2101,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names 'Christine Duavl' and 'Christine Duval' are likely the same due to the similarity in spelling, and the addresses and dates of birth are different, which suggests that the person may have moved or had a different name in the past. The presence of a phone number and a different source ('CRM'"
+   },
+   {
+    "x": 2102,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject's address matches Option A's address, and the names 'Jos\u00e9phine Chevalier' and 'Jos\u00e9ahine CHEVALIER' are likely variations of the same name, considering French diminutives and nicknames. The dates of birth are also consistent between the subject and Option A. The only difference is the so"
+   },
+   {
+    "x": 2104,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has a confirmed internal link, which means it is already a confirmed single person record. Option A has the same names, phone number, and source (KYC), making it likely that the subject matches Option A."
+   },
+   {
+    "x": 2105,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"A\", \"reason\": \"The subject's name and phone number match Option A's name and phone numbe"
+   },
+   {
+    "x": 2106,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"A\", \"reason\": \"The subject's phone number matches Option A's phone number, and the addre"
+   },
+   {
+    "x": 2117,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject has the same address, email, and source as Option B, but the date of birth is unknown. Since the date of birth is missing in the subject, it's possible that the subject is the same person as Option B, but without this information, we cannot be certain. However, since the subject has a di"
+   },
+   {
+    "x": 2122,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'S. Gauthier' and 'Stephanie Gauthier' are likely the same person, as 'S.' is a common French abbreviation for 'de' or 'du', and 'Stephanie' is a common French feminine given name. The dates of birth, addresses, and phones are also consistent across all options. The only difference is the "
+   },
+   {
+    "x": 2138,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's first name is 'Christophe' and last name is 'Rey', which matches Option A's first name 'Christophe REY' and last name 'Rey'. The addresses and phone numbers also match, and the sources are 'CRM' and 'LEGACY', which are consistent with the subject's sources. The only difference is the d"
+   },
+   {
+    "x": 2140,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has the same first name 'St\u00e9phanie' and last name 'Renaud' as Option A, and the same address '55, chemin des Vignes Lyon'. Although the dates of birth are unknown in both options, the addresses and names match, suggesting they could be the same person."
+   },
+   {
+    "x": 2144,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's names ['Jeanne Pasquier'] match one of the names in Option A ['Jeanne PASQUIER', 'Jeanne Pasquiez', 'Jeaanne PASQUIER'], and the addresses and phones match. The only difference is the case of the first name 'Jeanne' vs 'Jeanne PASQUIER', 'Jeanne Pasquiez', 'Jeaanne PASQUIER', but the b"
+   },
+   {
+    "x": 2146,
+    "answer": "NONE",
+    "truth": "A",
+    "reason": "Different first name ('A.-S.' vs 'Ane-Sophie') and different email address ('0127674204' vs 'annesophie.marchand@laposte.net') suggest different individuals."
+   },
+   {
+    "x": 2158,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's address and phone number match Option A's address and phone number, and the dates of birth are also consistent with Option A's record. The only difference is the source, but since the subject's source is 'CRM' and Option A's sources are 'LEGACY' and 'KYC', this is not a decisive factor"
+   },
+   {
+    "x": 2170,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has an email address, which is not present in the subject group, but the addresses and phone numbers are the same, suggesting a possible match."
+   },
+   {
+    "x": 2173,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name 'Louise Chevaliez' is close to 'Lousie CHEVALIER', 'Louise Chevtlier', and 'Louies Chevalier', which all share the same address and phone number. The dates of birth are also similar. The only difference is the case and slight variations in the names, which is common in French name"
+   },
+   {
+    "x": 2174,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name and address match Option A's name and address, and the subject's email and phone number match Option A's email and phone number. The only difference is the source, which is 'CRM' for the subject and 'KYC' for Option A. However, since the subject's source is 'CRM' and Option A's so"
+   },
+   {
+    "x": 2178,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's address and date of birth are not present in Option A, but the names 'Marie Lefebvre' and 'Marie Lefebvres' are very similar, suggesting a possible typo or variation in the spelling of the subject's name. The fact that the subject's address and date of birth are not present in Option A"
+   },
+   {
+    "x": 2185,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject has the same first name 'St\u00e9phane' and the same last name 'Faure' as Option B. The dates of birth are also the same. The addresses are different, but the phone number and sources are the same. Since the subject has a phone number and sources that match Option B, and the dates of birth an"
+   },
+   {
+    "x": 2204,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's address and phone number match the second group, and the subject's first name 'Frederic' is close to 'Fr\u00e9d\u00e9ric', which is a common French variant. Although the dates of birth are unknown, the addresses and other details are consistent, suggesting that the subject is likely the same per"
+   },
+   {
+    "x": 2205,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject's address has a space between 'rue du Moulin' and 'Versailles', which is consistent with Option B's address. The subject's dates of birth and other information match Option B's information, making it the most likely match."
+   },
+   {
+    "x": 2211,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Both records have the same last name 'Rey', same address type (street with a number), and same source (KYC and LEGACY are likely to be the same system), but the dates of birth and names are not exactly the same. However, the difference in names is likely due to French diminutives or nicknames (e.g. "
+   },
+   {
+    "x": 2213,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's email address 'marietherese.bonnet@orange.fr' matches one of the email addresses in Option A ('marietherese.bonnet@orange.fr'), and the addresses and dates of birth are consistent across all options."
+   },
+   {
+    "x": 2231,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Both groups have the same names and address, and the only difference is the source, which is not a distinguishing factor in this case. The fact that the source is different does not necessarily mean it's a different person, especially since the dates of birth are unknown."
+   },
+   {
+    "x": 2232,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Option B has multiple records with the same address, phone number, and confirmed internal links, suggesting a single individual. The slight variations in names (e.g., 'Olivier' vs 'Oliveir', 'Olivier' vs 'Oli') and dates of birth ('19721008') further support the idea that these records describe the "
+   },
+   {
+    "x": 2241,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject group has a confirmed internal link, but the other group has multiple records with the same address, phone number, and email, which suggests they are the same person. The additional records in group B have the same date of birth and a confirmed internal link, further supporting the concl"
+   },
+   {
+    "x": 2253,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Option A has the same name format, address, phone number, and source as the subject group, with only a minor difference in the last name ('Brunet' vs 'BRUNAIS' and 'BRUNET'). The confirmed internal link count is also the same (0)."
+   },
+   {
+    "x": 2270,
+    "answer": "B",
+    "truth": "B",
+    "reason": "Option B has a confirmed internal link, which is a strong indication that the records describe the same person. The dates of birth and addresses in Option B are also consistent with the subject group. The only difference is the name, but the French diminutive 'l' is often used in names, and 'Gabrinl"
+   },
+   {
+    "x": 2277,
+    "answer": "B",
+    "truth": "A",
+    "reason": "Both names ['Mercier Jos\u00e9phine', 'Jos\u00e9phine Mercier'] contain the same first and last names, with the first name having a French diminutive suffix, and the addresses and phones match, indicating the same person."
+   },
+   {
+    "x": 2289,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject has the same first name 'H\u00e9l\u00e8ne' and last name 'Michel' as Option A, and the same address '1, rue des Lilas 75002 Paris' as Option A. Although the dates of birth are unknown, the addresses and names match, suggesting that the subject is the same person as Option A."
+   },
+   {
+    "x": 2298,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject has the same first name 'Jeanne' and last name 'DAIVD' as one of the records in Option A, and the same address '25 boulevard Saint-Michel 06000 Nice'. Although the dates of birth are unknown, the emails and sources match, suggesting that the subject is likely the same person as the recor"
+   },
+   {
+    "x": 2299,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's names ['J. Rneaud'] and dates of birth ['19550602'] match the names and date of birth in Option A's record. The addresses, emails, and phones in Option A also match the subject's information, suggesting that the subject and the record in Option A describe the same person."
+   },
+   {
+    "x": 2301,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject has a confirmed internal link, which means it's a confirmed match. Option A has the same names, phone number, and source as the subject, making it the most likely match."
+   },
+   {
+    "x": 2316,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names '\u00c9lisabeth Brunet' and '\u00c9lisabeth BRUNET' are likely the same due to the use of the same first name and last name (with a possible typo in the first option). The dates of birth, addresses, phones, and sources also match, indicating that the two groups likely describe the same person."
+   },
+   {
+    "x": 2342,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Both records have the same first name 'Louis' and last name 'Dubois', and the same address. The only difference is the source, but since the subject's source is KYC, which is likely to be more reliable, and the address is the same, it's likely that these are the same person."
+   },
+   {
+    "x": 2348,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject has an email address (michel.francois@gmail.com) that matches the email address in Option B, and the addresses and dates of birth are also consistent across both options. The only difference is the use of initials in Option A, which is not present in the subject group. The subject group'"
+   },
+   {
+    "x": 2353,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject has a confirmed internal link, which means it is a rule- or analyst-confirmed match. Option A has the same names, dates of birth, and sources as the subject, making it the most likely match."
+   },
+   {
+    "x": 2386,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"B\", \"reason\": \"The subject has the same first name 'Laurence' and a different last name "
+   },
+   {
+    "x": 2449,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Guigui Lefebvre' and 'Guillaume Lefebvre' are likely the same person, as 'Guigui' is a French diminutive form of 'Guillaume'. The addresses and phone numbers match, and the dates of birth are also consistent (assuming the birthdate '19500517' is correct for both)."
+   },
+   {
+    "x": 2465,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'J. MATHIEU' and 'Julien Mathieu' are likely the same, as 'J.' is a common French diminutive for 'Jean'. The dates of birth are also consistent, and the addresses and phone numbers match."
+   },
+   {
+    "x": 2511,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"A\", \"reason\": \"The subject's name 'Thierry Faure' matches the name 'Thierry Faure' in Op"
+   },
+   {
+    "x": 2543,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's names ['Christophe Blanc'] match one of the names in Option A ['Christophe Blannc', 'Christophe Blanc', 'Christophe Balnc'], and the dates of birth ['19750408'] are the same. The addresses and phones also match, and the sources and confirmed internal links are consistent with the subje"
+   },
+   {
+    "x": 2591,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"A\", \"reason\": \"The subject has the same first name 'H\u00e9l\u00e8ne' and the same last name 'ROUX"
+   }
+  ]
+ },
+ "cluster_cluster/L3b": {
+  "n": 77,
+  "correct": 57,
+  "wrong": 19,
+  "wrong_merge": 19,
+  "unsure": 1,
+  "accuracy_on_decided": 0.75,
+  "coverage": 0.987,
+  "median_ms": 1120,
+  "rows": [
+   {
+    "x": 1966,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same address, and same phone number, indicating a high likelihood of the same person."
+   },
+   {
+    "x": 1968,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Anne Rey' match exactly, and the lack of confirmed internal links and unknown dates of birth suggest that these are separate records, but the same person."
+   },
+   {
+    "x": 1969,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Charles Masson' in the subject match 'Charles MASSON' in Option A, and the dates of birth are unknown in both, which is consistent with the subject's unknown date of birth. The addresses, emails, and phones in Option A are different from those in the subject and Option B, but the names ma"
+   },
+   {
+    "x": 1975,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, different address, but no other identifying information matches. The subject and Option A have the same name, but different addresses, which could be due to a move. The lack of shared dates of birth, phones, and emails makes it unlikely that the subject is the same person as Option B."
+   },
+   {
+    "x": 1983,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Charlotte Leroy' match exactly, and the dates of birth are unknown in the subject, but known in Option A. The addresses and phones also match exactly. The only difference is the capitalization of the street name, which is not significant."
+   },
+   {
+    "x": 1986,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The names '\u00c9duard MARCHAND' and '\u00c9douard Marchand' are similar, and the dates of birth are unknown in the subject group but known to be the same in Option A. The addresses and phones are different, but the subject group has no confirmed internal links, so it's possible that the subject is the same p"
+   },
+   {
+    "x": 1996,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same address format (avenue Victor Hugo), different city (Boulogne-Billancourt vs Toulouse)"
+   },
+   {
+    "x": 1999,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, date of birth, and address, with only minor differences in formatting and location"
+   },
+   {
+    "x": 2004,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, date of birth, and phone number, with only a different address, which could be a move."
+   },
+   {
+    "x": 2009,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, phone number, and address, with only minor differences in formatting (e.g. comma vs space in address)."
+   },
+   {
+    "x": 2010,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Same name, same address, and unknown dates of birth in all three options, making Option A the most likely match."
+   },
+   {
+    "x": 2011,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Same name, same address, and same phone number in both options A and the subject group, indicating a high likelihood of the same person."
+   },
+   {
+    "x": 2012,
+    "answer": "A",
+    "truth": "B",
+    "reason": "The names 'J.P. Booyer' and 'J. Boyer' are similar, and the addresses are different but in different cities, which suggests that the same person may have moved. The dates of birth are unknown in the subject group, but the date of birth in Option A is unknown as well, which makes it a plausible match"
+   },
+   {
+    "x": 2016,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, address, and unknown date of birth, indicating a strong match"
+   },
+   {
+    "x": 2018,
+    "answer": "B",
+    "truth": "B",
+    "reason": "The names are identical, and the only difference is the presence of middle name 'Charpentier' in the subject, which is also present in Option B. The dates of birth are unknown in the subject, but Option B's date of birth is not a clear mismatch. The additional information in Option B (email and phon"
+   },
+   {
+    "x": 2019,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names 'Fr\u00e9d\u00e9ric Rei' and 'Fr\u00e9d\u00e9riqeu Rey' are very similar, with the only difference being the accent and the 'q' in 'Fr\u00e9d\u00e9riqeu'. This suggests that the same person is being referred to in both records."
+   },
+   {
+    "x": 2027,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, address, and phone number, with minor differences in formatting, indicating the same person."
+   },
+   {
+    "x": 2028,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names are identical, and the only difference is the date of birth, which is unknown in the subject group. The presence of a date of birth in option A does not affect the conclusion that the records describe the same person."
+   },
+   {
+    "x": 2029,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same address (with minor variations), and same date of birth (although unknown in the subject record)"
+   },
+   {
+    "x": 2030,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Michel Andr\u00e9' in the subject match 'Michel Andre' in Option A, considering the possibility of a typo or lack of accents."
+   },
+   {
+    "x": 2031,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar name and address, different email and phone number, but same title (M. Duval) and no conflicting date of birth information."
+   },
+   {
+    "x": 2034,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names are identical, and the addresses match, indicating that the records describe the same real person."
+   },
+   {
+    "x": 2044,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in the name 'Alexadre' are likely to be minor errors, and the phone number and sources match, indicating that the records describe the same person."
+   },
+   {
+    "x": 2050,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Typos in Option A's name ('Sysvie' instead of 'Sylvie') and address ('24 R des Lilas Paris' instead of '24, R des Lilas 75002 Paris') are the only differences, indicating the same person as the subject group."
+   },
+   {
+    "x": 2052,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The only difference is the date of birth, which is unknown for the subject. Option A provides a date of birth, but it's unknown whether it's correct. Since the other information (name, phone number, address) matches, it's likely that Option A refers to the same person."
+   },
+   {
+    "x": 2056,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Similar name, same address, and unknown dates of birth in both options, making Option A the most likely match."
+   },
+   {
+    "x": 2058,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'V. Bonet' and 'V. Bonnet' are very similar, with only a slight difference in the last character. The addresses and dates of birth are also similar, which further supports the match."
+   },
+   {
+    "x": 2076,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar names, same address, and same date of birth (although unknown) suggest that the subject is likely the same person as Option A."
+   },
+   {
+    "x": 2079,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject and Option B have the same name format (first name + last name), same date of birth, and same address, which suggests that they are the same person."
+   },
+   {
+    "x": 2084,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'St\u00e9phane Vincent' and 'Steph Vincent' are likely the same person, considering the minor difference in capitalization and the presence of the same email address and phone number."
+   },
+   {
+    "x": 2090,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The addresses match exactly, including the postal code, and the phone number matches. The only difference is the capitalization of 'Rue de la Paix', which is a minor variation."
+   },
+   {
+    "x": 2092,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same date of birth, similar address format, and matching email address suggest that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2093,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Similar name and address, but different date of birth (unknown in the subject vs known in Option A)"
+   },
+   {
+    "x": 2094,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Louise' and phone number '0783100731' match between the subject and Option A, indicating they are likely the same person."
+   },
+   {
+    "x": 2096,
+    "answer": "B",
+    "truth": "NONE",
+    "reason": "The subject and Option B share the same name 'Nicolas Laurent' and address '7 RUE PASTEUR LILLE', which is a strong match. The dates of birth are unknown in the subject, but Option B has a known date of birth that could be confirmed or disproven with additional information. The confirmed internal li"
+   },
+   {
+    "x": 2100,
+    "answer": "B",
+    "truth": "A",
+    "reason": "The subject and Option B share the same name and phone number, which is a strong match. The dates of birth are unknown in the subject, but it's not uncommon for this information to be missing. The addresses and emails are different, but these could be work or personal addresses, and the phone number"
+   },
+   {
+    "x": 2101,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Similar last name 'Duavl' and 'Duval' with no other significant differences in names, dates of birth, or addresses."
+   },
+   {
+    "x": 2102,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names 'Jos\u00e9phine Chevalier' and 'Jos\u00e9ahine CHEVALIER' are similar, with only a slight difference in the accent and case. The dates of birth and addresses match, making it likely that these records describe the same person."
+   },
+   {
+    "x": 2104,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, different date of birth and source, but same phone number and address, suggesting the same person"
+   },
+   {
+    "x": 2105,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names, phone number, and address match exactly, making it likely that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2106,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names are identical, and the phone number matches. Although the addresses are different, it's possible that the person has moved. The lack of dates of birth makes it difficult to rule out Option B, but the name match is strong enough to suggest that Option A is the same person."
+   },
+   {
+    "x": 2117,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names, addresses, and sources match exactly, making it likely that the records describe the same person."
+   },
+   {
+    "x": 2122,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Matching names, dates of birth, and address, with only minor differences in formatting and source"
+   },
+   {
+    "x": 2138,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name, same last name, and same address, with the only difference being the case of the last name."
+   },
+   {
+    "x": 2140,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, similar address (chemin des Vignes vs ch. des Vignes), different source (KYC vs LEGACY)"
+   },
+   {
+    "x": 2144,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is 'Jeanne Pasquier' and the dates of birth are unknown, which matches the Option A records. The addresses, phones, and sources also match."
+   },
+   {
+    "x": 2146,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'A.-S. Marchand' and 'Ane-Sophie Marchand' are similar, with the same first name and last name, differing only in the use of a hyphen and the full form of the first name. The lack of a date of birth and the presence of different phone numbers and sources suggest that these are the same per"
+   },
+   {
+    "x": 2158,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same address, and same phone number, with a confirmed internal link between the two records in Option A, making it the most likely match."
+   },
+   {
+    "x": 2170,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names, addresses, and phone numbers are identical, making it likely that the records describe the same person."
+   },
+   {
+    "x": 2173,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Louise Chevaliez' in the subject match 'Louise Chevalier' in Option A, considering the French diminutive 'Louise' and the common last name 'Chevalier'. The phone number and address also match."
+   },
+   {
+    "x": 2174,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Matching names, addresses, and phone numbers, with unknown dates of birth, suggest the same person."
+   },
+   {
+    "x": 2178,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar last name 'Lefebvre' and different first name 'Marie' vs 'Marie Lefebvres' (note the extra 's' which could be a typo), but no other significant differences in the data."
+   },
+   {
+    "x": 2185,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names are identical, and the phone number is the same, which suggests that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2204,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Frederic Leroy' and 'Fr\u00e9d\u00e9ric Leroy' are the same, with the only difference being the presence of an accent. The addresses and dates of birth are also the same, making it likely that these records describe the same person."
+   },
+   {
+    "x": 2205,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'D. Peret' and 'Dominique Perret' are likely the same person, considering the similarity in names and the matching email, phone number, and address."
+   },
+   {
+    "x": 2211,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, different address, but no date of birth information to confirm or contradict the match."
+   },
+   {
+    "x": 2213,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names are similar, with the same first name and last name, and the dates of birth match. The addresses are also similar, with the same street and city, although there are minor variations in formatting. The emails and sources also match. The confirmed internal links in option A are likely due to"
+   },
+   {
+    "x": 2231,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same names, unknown dates of birth, and same address in both options, making it likely that the subject and option A describe the same person."
+   },
+   {
+    "x": 2232,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar name, same address, and unknown dates of birth match"
+   },
+   {
+    "x": 2241,
+    "answer": "UNSURE",
+    "truth": "A",
+    "reason": "unparseable: {\"answer\": \"B\", \"reason\": \"The subject's name is 'Michele Lefebvre' which matches 'Michele Mercier' "
+   },
+   {
+    "x": 2253,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names are identical, and the dates of birth are unknown in both the subject and Option A. The addresses are also identical, and the phone number matches. The only difference is the slight variation in the last name ('Brunet' vs 'BRUNAIS'), which is likely a typo or a French diminutive/nickname."
+   },
+   {
+    "x": 2270,
+    "answer": "A",
+    "truth": "B",
+    "reason": "Similarity in first name and address, despite minor differences in formatting and presence of middle name"
+   },
+   {
+    "x": 2277,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same address, and same confirmed internal links, indicating that the subject and Option A are likely the same person."
+   },
+   {
+    "x": 2289,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "Similar address format (rue des Lilas) and last name (Michel) suggest the same person, despite minor differences in capitalization and street number."
+   },
+   {
+    "x": 2298,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The subject's name 'Jeanne DAIVD' is likely a feminine variant of 'Jean-Pierre David', and the address matches. The dates of birth are unknown, but the subject's email and CRM source match the option A records."
+   },
+   {
+    "x": 2299,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is 'J. Rneaud' which is likely a typo or abbreviation of 'Jean-Baptiste RENAUD', and the date of birth matches. The other information (address, email, phone) is not available in the subject record, but it's not a strong enough reason to conclude they are different people."
+   },
+   {
+    "x": 2301,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Fran\u00e7ois Louis' and 'Louis Fran\u00e7ois' are the same, with only the order of the first and last names differing. The phone number and date of birth also match, making it likely that these records describe the same person."
+   },
+   {
+    "x": 2316,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, phone number, and address, with only minor differences in capitalization and address format."
+   },
+   {
+    "x": 2342,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same name, same address, different date of birth (unknown in option A, known in subject)"
+   },
+   {
+    "x": 2348,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Similar name (Micehl vs Mihel), same date of birth, and different address (Boulogne-Billancourt vs Bordeaux) suggest the same person."
+   },
+   {
+    "x": 2353,
+    "answer": "A",
+    "truth": "NONE",
+    "reason": "The names 'Christian Leroy' match exactly, and the dates of birth are unknown in both options, which suggests that the subject and Option A describe the same person."
+   },
+   {
+    "x": 2386,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'Laurence Faure' in Option A match the subject's name 'Laurence Faue' with a minor typo. The addresses also match, and the dates of birth are unknown in the subject, but the same in Option A. The phones and sources do not match, but the confirmed internal links are 1, indicating a strong c"
+   },
+   {
+    "x": 2449,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Guigui' (or 'Guillaume' which is a common French diminutive/nickname) and same phone number '0121304850' suggest a strong match between the subject and Option A."
+   },
+   {
+    "x": 2465,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'J. MATHIEU' and 'Julien Mathieu' are similar, with 'J.' being a common abbreviation for 'Julien'. The phone number and address also match, making it likely that the subject and option A describe the same person."
+   },
+   {
+    "x": 2511,
+    "answer": "A",
+    "truth": "A",
+    "reason": "Same first name 'Thierry' and last name 'Faure' in both options, with matching date of birth unknown in the subject and known in Option A."
+   },
+   {
+    "x": 2543,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The subject's name is 'Christophe Blanc' and the dates of birth are unknown, which matches the Option A records. The phone number and email also match. The only difference is the presence of typos in the Option A names, which is a common issue in customer data."
+   },
+   {
+    "x": 2591,
+    "answer": "A",
+    "truth": "A",
+    "reason": "The names 'H\u00e9l\u00e8ne ROUX' in the subject match 'H\u00e9l\u00e8ne Roux' in Option A, and the addresses and phone number are different, but not uncommon for the same person. The dates of birth are unknown in the subject, but the presence of a date of birth in Option A does not necessarily mean they are different "
+   }
+  ]
+ },
+ "gold_distribution": {
+  "A": 60,
+  "B": 6,
+  "NONE": 11
+ }
+}

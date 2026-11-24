@@ -1,0 +1,51 @@
+{
+ "ds": "test",
+ "levels": [],
+ "ctx": "fiche_cluster",
+ "rounds": [
+  {
+   "round": 1,
+   "project_s": 0.103,
+   "pregel_s": 0.05,
+   "iterations": 2,
+   "converged": true,
+   "merges": 155,
+   "nodes": 646,
+   "rels": 2880,
+   "decisive": 1185,
+   "refused": 0,
+   "moot": 63,
+   "questions": 0
+  }
+ ],
+ "elapsed_s": 0.4,
+ "calls": {},
+ "latency_ms": {},
+ "unsure_after_level": {},
+ "reopened": 0,
+ "final_refused_match_edges": 0,
+ "final_decisive_unresolved": 1185,
+ "metrics": {
+  "pair_precision": 1.0,
+  "pair_recall": 0.4117,
+  "pair_f1": 0.5832,
+  "exact_entities": 154,
+  "true_entities": 300,
+  "exact_rate": 0.5133,
+  "pred_clusters": 491,
+  "clusters_with_strong_id_conflict": 0
+ },
+ "answers_correct_by_level": {},
+ "answers_by_kind": {},
+ "wcc_on_final_match_edges": {
+  "pair_precision": 1.0,
+  "pair_recall": 0.4117,
+  "pair_f1": 0.5832,
+  "exact_entities": 154,
+  "true_entities": 300,
+  "exact_rate": 0.5133,
+  "pred_clusters": 491,
+  "clusters_with_strong_id_conflict": 0
+ },
+ "log": []
+}
