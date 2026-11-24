@@ -143,7 +143,7 @@ Expected output:
 - `check_pregel.py`: identical partitions (495 and 491 clusters);
 - metrics matching the first four rows of the results table above.
 
-The rules-only and baseline numbers are deterministic. The L1 and L2 numbers can move by a few questions, because the order in which questions are asked depends on earlier answers.
+The core run is deterministic. It was re-run from a clean clone of this repository, against a freshly regenerated dataset, and gave the same metrics and the same number of calls per level as the committed `results/`, with identical baselines; only the timings differed. Runs that include an LLM are not guaranteed to repeat exactly.
 
 ### Level 3: local LLMs
 
